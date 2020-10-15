@@ -1,5 +1,17 @@
-body {
+/* TODO: 
+add mobile capability to delete 80px borders when necessary
+add flex to nav
+read about accessibility again for naming items correctly
+add google fonts
+*/
 
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+
+
+body {
+    background-color: #666;
 }
 
 .web-layout {
@@ -22,13 +34,25 @@ body {
 
 header {
   grid-area: h;
-  background-color: blue;
+  background-color: black;
   text-align: center;
+  color: white;
+  font-family: 'Press Start 2P', sans-serif;
 }
+
 
 nav {
   grid-area: a;
-  background-color: orange;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul, li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 15px; 
+    padding-left: 15px;
 }
 
 main {
@@ -40,6 +64,8 @@ main {
 footer {
   grid-area: f;
   background-color: yellow;
+  display: flex;
+  justify-content: center;
 }
 
 
