@@ -1,0 +1,50 @@
+body {
+
+}
+
+.web-layout {
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 80px 1fr 2fr 80px;
+  grid-template-rows: .5fr .5fr auto .5fr;
+  grid-template-areas:
+    "h h h"
+    "a a a"
+    "m m m"
+    "f f f";
+}
+
+.web-layout > * { /* refers to all items */
+    grid-column: 2 / -2; /* set items to exist inside 80px borders */
+    min-width: 0; /* prevent items from centering weirdly */
+}
+
+header {
+  grid-area: h;
+  background-color: blue;
+  text-align: center;
+}
+
+nav {
+  grid-area: a;
+  background-color: orange;
+}
+
+main {
+  grid-area: m;
+  background-color: purple;
+  height: 600px;
+}
+
+footer {
+  grid-area: f;
+  background-color: yellow;
+}
+
+
+
+
+
+
+ */
