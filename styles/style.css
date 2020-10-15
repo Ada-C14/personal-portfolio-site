@@ -1,24 +1,29 @@
-/* TODO: 
-add mobile capability to delete 80px borders when necessary
-add flex to nav
-read about accessibility again for naming items correctly
-add google fonts
-*/
 
 /* ====================================================================================================================
- * RESETS
+ * TODO
+ * - add mobile capability to delete 80px borders when necessary
+ * - add flex to nav
+ * - read about accessibility again for naming items correctly
+ * - add google fonts
  * ====================================================================================================================*/
 
 
 body {
-    background-color: #666;
+    background-color: darkslategrey;
+}
+
+a:link, a:visited {
+    color: darkslategray;
+}
+
+a:active, a:hover {
+    color: darkred;
 }
 
 .web-layout {
   height: 100%;
   display: grid;
-  grid-gap: 3px;
-  grid-template-columns: 80px 1fr 2fr 80px;
+  grid-template-columns: 10vh 1fr 2fr 10vh;
   grid-template-rows: .5fr .5fr auto .5fr;
   grid-template-areas:
     "h h h"
@@ -38,14 +43,16 @@ header {
   text-align: center;
   color: white;
   font-family: 'Press Start 2P', sans-serif;
+  min-height: 20vh;
 }
-
 
 nav {
   grid-area: a;
   background-color: white;
   display: flex;
+  align-items: center;
   justify-content: center;
+  border-bottom: 3px solid black;
 }
 
 nav ul, li {
@@ -56,21 +63,19 @@ nav ul, li {
 }
 
 main {
-  grid-area: m;
-  background-color: purple;
-  height: 600px;
+    grid-area: m;
+    background-color: grey;
+    min-height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5vh auto 5vh;
+    grid-template-rows: auto;
 }
 
 footer {
   grid-area: f;
-  background-color: yellow;
+  background-color: white;
   display: flex;
   justify-content: center;
+  border-top: 3px solid black;
 }
-
-
-
-
-
-
- */
