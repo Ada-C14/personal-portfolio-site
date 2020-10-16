@@ -92,3 +92,17 @@ footer {
   border-top: 3px solid black;
   margin-top: -8px;
 }
+
+@media screen and (max-width: 480px) {
+    .web-layout {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1vh 1fr 2fr 1vh;
+        grid-template-rows: .5fr .25fr auto .25fr;
+        grid-template-areas:
+          "h h h"
+          "a a a"
+          "m m m"
+          "f f f";
+      }
+}
