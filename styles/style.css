@@ -93,7 +93,7 @@ footer {
   margin-top: -8px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px) {
     .web-layout {
         height: 100%;
         display: grid;
