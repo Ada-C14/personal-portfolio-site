@@ -23,7 +23,7 @@ a:active, a:hover {
 .web-layout {
   height: 100%;
   display: grid;
-  grid-template-columns: 10vh 1fr 2fr 10vh;
+  grid-template-columns: 10vh 3fr 10vh;
   grid-template-rows: .5fr .25fr auto .25fr;
   grid-template-areas:
     "h h h"
@@ -97,7 +97,7 @@ footer {
     .web-layout {
         height: 100%;
         display: grid;
-        grid-template-columns: 1vh 1fr 2fr 1vh;
+        grid-template-columns: 1vh auto 1vh;
         grid-template-rows: .5fr .25fr auto .25fr;
         grid-template-areas:
           "h h h"
