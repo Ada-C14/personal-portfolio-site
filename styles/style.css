@@ -23,18 +23,40 @@ a:active, a:hover {
 .web-layout {
   height: 100%;
   display: grid;
-  grid-template-columns: 10vh 3fr 10vh;
+  grid-template-columns: 25vh 3fr 25vh;
   grid-template-rows: .5fr .25fr auto .25fr;
   grid-template-areas:
-    "h h h"
-    "a a a"
-    "m m m"
-    "f f f";
+    "r h l"
+    "r a l"
+    "r m l"
+    "r f l";
 }
 
 .web-layout > * { /* refers to all items */
     grid-column: 2 / -2; /* set items to exist inside 80px borders */
     min-width: 0; /* prevent items from centering weirdly */
+}
+
+section.left-border {
+    grid-area: r;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
+
+section.left-border img {
+    max-width: 50%;
+}
+
+section.right-border {
+    grid-area: l;
+    display: flex;
+    align-items: flex-end;
+} 
+
+section.right-border img {
+    transform: scaleX(-1);
+    max-width: 50%;
 }
 
 header {
@@ -44,6 +66,7 @@ header {
   color: white;
   font-family: 'Press Start 2P', sans-serif;
   border-bottom: 1em solid black;
+  margin-top: -8px;
 }
 
 header img {
@@ -91,18 +114,20 @@ footer {
   align-items: center;
   border-top: 3px solid black;
   margin-top: -8px;
+  margin-bottom: -8px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
     .web-layout {
         height: 100%;
         display: grid;
-        grid-template-columns: 5px auto 5px;
-        grid-template-rows: .5fr .25fr auto .25fr;
+        grid-template-columns: 15px auto 15px;
+        grid-template-rows: .5fr .25fr auto .25fr .25fr;
         grid-template-areas:
           "h h h"
           "a a a"
           "m m m"
-          "f f f";
+          "f f f"
+          "l r";
       }
 }
