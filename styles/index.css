@@ -1,0 +1,10 @@
+.flexbox-nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.flexbox-nav :nth-child(1) {
+    margin-right: auto;
+}
+
