@@ -24,7 +24,7 @@ a:active, a:hover {
   height: 100%;
   display: grid;
   grid-template-columns: 10vh 1fr 2fr 10vh;
-  grid-template-rows: .5fr .5fr auto .5fr;
+  grid-template-rows: .5fr .25fr auto .25fr;
   grid-template-areas:
     "h h h"
     "a a a"
@@ -43,12 +43,16 @@ header {
   text-align: center;
   color: white;
   font-family: 'Press Start 2P', sans-serif;
-  min-height: 20vh;
+  border-bottom: 1em solid black;
+}
+
+header img {
+    max-height: 100%;
 }
 
 nav {
   grid-area: a;
-  background-color: white;
+  background-color: darkgrey;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +68,7 @@ nav ul, li {
 
 main {
     grid-area: m;
-    background-color: grey;
+    background-color: white;
     min-height: auto;
     text-align: center;
     display: grid;
@@ -72,10 +76,19 @@ main {
     grid-template-rows: auto;
 }
 
+section img {
+    max-width: 100%;
+}
+section.text h3 {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
 footer {
   grid-area: f;
-  background-color: white;
+  background-color: darkgrey;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-top: 3px solid black;
+  margin-top: -8px;
 }
