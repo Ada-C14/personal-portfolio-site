@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace
+  }
+  
+  /* header */
+  header {
+    background-color: #F5CEC7;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #FFC98B;
+    padding: 10px;
+    color: black;
+    font-size: x-large;
+    border-radius: 30px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* footer */
+  footer {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: #F5CEC7;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
