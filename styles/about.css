@@ -1,0 +1,8 @@
+div.bottom-image {
+    margin-top: 0px;
+    text-align: center;
+}
+
+div.bottom-image img {
+    max-width: 50%;
+}
