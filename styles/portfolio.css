@@ -1,0 +1,26 @@
+div.portfolio-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* 
+div.portfolio-grid < div {
+    display: inline-block;
+} */
+
+div.portfolio-grid img a:hover {
+  background-color: yellow;
+  opacity:1.0;
+}
+
+div.bottom-image {
+    margin-top: 0px;
+    text-align: center;
+}
+
+div.bottom-image img {
+    max-width: 50%;
+}
