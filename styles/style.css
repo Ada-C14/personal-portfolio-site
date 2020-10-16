@@ -7,6 +7,9 @@
  * - add google fonts
  * ====================================================================================================================*/
 
+ /* ====================================================================================================================
+ * BASIC STYLES
+ * ====================================================================================================================*/
 
 body {
     background-color: darkslategrey;
@@ -19,6 +22,10 @@ a:link, a:visited {
 a:active, a:hover {
     color: darkred;
 }
+
+ /* ====================================================================================================================
+ * WEB-LAYOUT GRID STYLES
+ * ====================================================================================================================*/
 
 .web-layout {
   height: 100%;
@@ -36,6 +43,8 @@ a:active, a:hover {
     grid-column: 2 / -2; /* set items to exist inside 80px borders */
     min-width: 0; /* prevent items from centering weirdly */
 }
+
+/* Left/Right Border Styles */
 
 section.left-border {
     grid-area: r;
@@ -59,6 +68,8 @@ section.right-border img {
     max-width: 50%;
 }
 
+/* Header Styles */
+
 header {
   grid-area: h;
   background-color: black;
@@ -72,6 +83,8 @@ header {
 header img {
     max-height: 100%;
 }
+
+/* Navigation Styles */
 
 nav {
   grid-area: a;
@@ -89,6 +102,8 @@ nav ul, li {
     padding-left: 15px;
 }
 
+/* Main Content Styles */
+
 main {
     grid-area: m;
     background-color: white;
@@ -101,10 +116,6 @@ main {
 
 section.text img {
     max-width: 100%;
-}
-
-div.bottom-image {
-    margin-top: -8px;
 }
 
 section.text {
@@ -123,6 +134,12 @@ div.divider img {
     max-width: 50%;
 }
 
+div.bottom-image {
+    margin-top: -8px;
+}
+
+/* Footer Styles */
+
 footer {
   grid-area: f;
   background-color: darkgrey;
@@ -133,6 +150,11 @@ footer {
   margin-top: -8px;
   margin-bottom: -8px;
 }
+
+ /* ====================================================================================================================
+ * ADJUSTMENT STYLES FOR SMALL SCREENS
+ * ====================================================================================================================*/
+
 
 @media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
     .web-layout {
