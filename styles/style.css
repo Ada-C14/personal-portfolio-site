@@ -184,4 +184,8 @@ footer {
           "r m l"
           "r f l";
       }
-      
+
+      section.right-border img, section.left-border img {
+        display: none;
+    }
+}      
