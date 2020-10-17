@@ -18,14 +18,13 @@ main {
 }
 
 .introduction {
-    padding-top: 20px;
     grid-column: 2 / 11;
     grid-row: 1 / 5;
 }
 
 .more-intro {
     grid-column: 2 / 11;
-    grid-row: 6 / 8;
+    grid-row: 5 / 8;
 }
 
 .portfolio-button {
