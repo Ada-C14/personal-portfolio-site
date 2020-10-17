@@ -1,10 +1,11 @@
 
 /* ====================================================================================================================
  * TODO
- * - add mobile capability to delete 80px borders when necessary
- * - add flex to nav
+ * - add mobile capability to delete 80px borders when necessary - DONE
+ * - add flex to nav - DONE
  * - read about accessibility again for naming items correctly
- * - add google fonts
+ * - add google fonts - DONE
+ * - figure out how to correctly nest styles so code is more dry
  * ====================================================================================================================*/
 
  /* ====================================================================================================================
@@ -156,8 +157,8 @@ footer {
  * ====================================================================================================================*/
 
 
-@media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
-    .web-layout {
+/* @media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
+    /* .web-layout {
         height: 100%;
         display: grid;
         grid-template-columns: 15px auto 15px;
@@ -168,5 +169,19 @@ footer {
           "m m m"
           "f f f"
           "l r";
+      } */
+/* } */
+
+@media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
+    .web-layout {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 5vh 3fr 5vh;
+        grid-template-rows: .5fr .25fr auto .25fr;
+        grid-template-areas:
+          "r h l"
+          "r a l"
+          "r m l"
+          "r f l";
       }
-}
+      
