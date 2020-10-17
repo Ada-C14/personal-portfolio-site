@@ -169,11 +169,11 @@ footer {
       } */
 /* } */
 
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 600px) { 
     .web-layout {
         height: 100%;
         display: grid;
-        grid-template-columns: 20vh minmax(375px, 2.5fr) 20vh;
+        grid-template-columns: 10vh 3fr 10vh;
         grid-template-rows: .5fr .25fr auto .25fr;
         grid-template-areas:
           "r h l"
