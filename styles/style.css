@@ -76,3 +76,7 @@ footer {
     font-size: 2em;
     font-family: 'Comfortaa', cursive;
 }
+
+main{
+    line-height: 150%;
+}
