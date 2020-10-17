@@ -172,8 +172,8 @@ footer {
       } */
 /* } */
 
-@media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
-    .web-layout {
+@media screen and (max-width: 850px) { 
+    /* .web-layout {
         height: 100%;
         display: grid;
         grid-template-columns: 5vh minmax(375px, 3fr) 5vh;
@@ -183,7 +183,7 @@ footer {
           "r a l"
           "r m l"
           "r f l";
-      }
+      } */
 
       section.right-border img, section.left-border img {
         display: none;
