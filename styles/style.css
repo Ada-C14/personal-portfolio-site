@@ -6,6 +6,7 @@
  * - read about accessibility again for naming items correctly
  * - add google fonts - DONE
  * - figure out how to correctly nest styles so code is more dry
+ * - fix html for about and portfolio to make index updates commit 23
  * ====================================================================================================================*/
 
  /* ====================================================================================================================
@@ -98,6 +99,8 @@ nav ul, li {
     list-style-type: none;
     padding-right: 15px; 
     padding-left: 15px;
+    font-size: 1.15em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Main Content Styles */
@@ -118,10 +121,12 @@ section.text img {
 
 section.text {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
 }
 
 section.text h3 {
     font-family: 'Press Start 2P', sans-serif;
+    font-size: 1em;
 }
 
 div.divider {
