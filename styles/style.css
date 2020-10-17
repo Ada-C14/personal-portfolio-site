@@ -31,18 +31,18 @@ a:active, a:hover {
 .web-layout {
   height: 100%;
   display: grid;
-  grid-template-columns: 10vh minmax(375px, 2.5fr) 10vh;
+  grid-template-columns: auto;
   grid-template-rows: .5fr .25fr auto .25fr;
   justify-content: center;
   grid-template-areas:
-    "r h l"
-    "r a l"
-    "r m l"
-    "r f l";
+    "h h h"
+    "a a a"
+    "m m m"
+    "f f f";
 }
 
 .web-layout > * { /* refers to all items */
-    grid-column: 2 / -2; /* set items to exist inside 80px borders */
+    grid-column: 1 / -1; /* set items to exist inside 80px borders */
     min-width: 0; /* prevent items from centering weirdly */
 }
 
@@ -61,9 +61,9 @@ section.right-border {
     align-items: flex-end;
 } 
 
-section.right-border img, section.left-border img {
+/* section.right-border img, section.left-border img {
     visibility: hidden;
-}
+} */
   
 
 /* Header Styles */
@@ -153,22 +153,6 @@ footer {
  * ADJUSTMENT STYLES FOR SMALL SCREENS
  * ====================================================================================================================*/
 
-
-/* @media screen and (max-width: 850px) { /* for tablets/mobiles, have smaller margins */
-    /* .web-layout {
-        height: 100%;
-        display: grid;
-        grid-template-columns: 15px auto 15px;
-        grid-template-rows: .5fr .25fr auto .25fr .25fr;
-        grid-template-areas:
-          "h h h"
-          "a a a"
-          "m m m"
-          "f f f"
-          "l r";
-      } */
-/* } */
-
 @media screen and (min-width: 600px) { 
     .web-layout {
         height: 100%;
@@ -182,12 +166,17 @@ footer {
           "r f l";
     }
     
-    section.left-border img, section.right-border img {
+    .web-layout > * { 
+        grid-column: 2 / -2; 
+        min-width: 0; 
+    }
+
+    /* section.left-border img, section.right-border img {
         max-width: 70%;
         visibility: visible;
     }
 
     section.right-border img {
         transform: scaleX(-1);
-    }
+    } */
 }
