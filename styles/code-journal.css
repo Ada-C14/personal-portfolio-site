@@ -1,0 +1,30 @@
+h1 {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+article {
+    color: #717b84;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2 {
+    text-align: center ;
+    font-weight: bold;
+    color: #51adcf;
+}
+
+h3 {
+    font-weight: normal;
+    font-style: oblique;
+}
+
+hr {
+    width:70%;
+    text-align:center;
+    margin-top: 40px;
+    color: #51adcf;
+    margin-bottom: 40px;
+}
+

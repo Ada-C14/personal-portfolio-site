@@ -1,0 +1,47 @@
+main {
+    margin-top: 2em;
+    color: #717b84;
+}
+
+.grid-page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 50px);
+}
+
+h1 {
+    margin-top: 1em;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.picture {
+    text-align: right;
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+.introduction {
+    grid-column: 3 / 11;
+    grid-row: 3;
+    margin-left: 30px;
+}
+
+.portfolio-button {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 29px;
+    padding-right: 20px;
+}
+
+.first-letter {
+    color: #51adcf;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0.5;
+    margin-left: -6px;
+    letter-spacing: 0;
+}
