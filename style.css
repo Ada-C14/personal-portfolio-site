@@ -29,15 +29,15 @@
     letter-spacing: 0.20rem;
     text-transform: uppercase;
     color: black;
-    text-shadow: 4px 4px #ef3550,
-                 8px 8px #f48fb1,
-                 12px 12px #7e57c2,
-                 16px 16px #2196f3,
-                 20px 20px #26c6da,
-                 24px 24px #43a047,
-                 28px 28px #eeff41,
-                 32px 32px #f9a825,
-                 36px 36px #ff5722;
+    text-shadow: 4px 4px #f09b93,
+                 8px 8px #ebd6d7,
+                 12px 12px #f9ebd9,
+                 16px 16px #e9dd8a,
+                 20px 20px #439093,
+                 24px 24px #f09b93,
+                 28px 28px #ebd6d7,
+                 32px 32px #f9ebd9,
+                 36px 36px #e9dd8a;
   }
   
   h2.title {
@@ -65,6 +65,7 @@
     -ms-flex: 3;
     flex: 3;
     background: #F5CEC7;
+    color: black;
     text-align: center;
     text-transform: lowercase;
     padding: 10px;
@@ -73,9 +74,7 @@
     margin-bottom: 10px;
     font-family: sans-serif;
     font-size: 3rem;
-    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   
   }
   
   /* Style the list inside the menu */
