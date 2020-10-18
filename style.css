@@ -13,11 +13,13 @@
     text-align: center;
     border-radius: 30px;
   }
-
+  /* social media buttons */
   article.social {
     background-color: #F5CEC7;
     text-align: right;
   }
+
+  /* create rainbow name block text */
   h1 {
     margin-top: 0px;
     margin-bottom: 50px;
@@ -26,18 +28,26 @@
     font-size: 5rem;
     letter-spacing: 0.20rem;
     text-transform: uppercase;
-    color: #fff;
-    text-shadow: -4px 4px #ef3550,
-                 -8px 8px #f48fb1,
-                 -12px 12px #7e57c2,
-                 -16px 16px #2196f3,
-                 -20px 20px #26c6da,
-                 -24px 24px #43a047,
-                 -28px 28px #eeff41,
-                 -32px 32px #f9a825,
-                 -36px 36px #ff5722;
+    color: black;
+    text-shadow: 4px 4px #ef3550,
+                 8px 8px #f48fb1,
+                 12px 12px #7e57c2,
+                 16px 16px #2196f3,
+                 20px 20px #26c6da,
+                 24px 24px #43a047,
+                 28px 28px #eeff41,
+                 32px 32px #f9a825,
+                 36px 36px #ff5722;
   }
   
+  h2.title {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  
+  }
+  /* set background color of site */
   body {
     background-color: #F5CEC7;
   }
@@ -51,22 +61,14 @@
   
   /* navigation menu */
   nav {
-    -webkit-flex: .5;
-    -ms-flex: .5;
-    flex: .5;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
     background: #F5CEC7;
-    text-align: left;
+    text-align: center;
     text-transform: lowercase;
     padding: 10px;
     border-radius: 30px;
-  }
-  /* Style the list inside the menu */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul {
     margin-top: 0px;
     margin-bottom: 10px;
     font-family: sans-serif;
@@ -75,12 +77,19 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
   /* content */
   article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    background-color: white;
+    background-color: #F5CEC7;
     padding: 10px;
     border-radius: 30px;
   }
