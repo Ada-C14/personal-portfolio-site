@@ -1,0 +1,12 @@
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 45%;
+    height: auto;
+    border-radius: .1em;
+}
