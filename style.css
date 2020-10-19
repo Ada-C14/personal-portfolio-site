@@ -19,10 +19,11 @@
     text-align: right;
   }
 
-  article.navigation {
+  article.menu {
     background-color: #F5CEC7;
-    text-align: center;
+    text-align: left;
   }
+
   /* create rainbow name block text */
   h1 {
     margin-top: 0px;
@@ -52,13 +53,6 @@
   
   }
 
-  h3 {
-    text-align: center;
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
-
   /* set background color of site */
   body {
     background-color: #F5CEC7;
@@ -68,24 +62,6 @@
   section {
     display: -webkit-flex;
     display: flex;
-  }
-  
-  /* navigation menu */
-  nav {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    background: #F5CEC7;
-    color: black;
-    text-align: center;
-    text-transform: lowercase;
-    padding: 10px;
-    border-radius: 30px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-   
-    
-   
   }
   
   /* Style the list inside the menu */
@@ -99,11 +75,19 @@
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    background-color: #F5CEC7;
-    padding: 10px;
+    background-color: #f9ebd9;
+    padding: 3px;
+    padding-block-end: 10px;
     border-radius: 30px;
   }
-  
+  /* style tech stack box */
+  article.tech_stack {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+  }
+
   /* footer */
   footer {
     background-color: #F5CEC7;
