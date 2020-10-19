@@ -1,0 +1,21 @@
+.about-facts {
+    text-align: left;
+    width: 75%;
+    margin: 30px auto;
+}
+
+.image-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, minmax(10px,100%));
+    margin-left: 100px;
+
+}
+
+.image-grid img {
+    max-width: 80%;
+}
+
+footer{
+    margin-top: 20px;
+}
