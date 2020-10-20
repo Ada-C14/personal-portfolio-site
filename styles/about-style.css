@@ -1,0 +1,28 @@
+
+
+main {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+img {
+  object-fit: contain;
+  align-self: flex-start;
+  object-position: 10% 0%;
+}
+
+.journey {
+  width: 80%;
+  height: auto;
+  /* display: flex;
+  flex-direction: column;
+  border: red 2px solid; */
+  padding: 0 5rem;
+  margin: 0 auto
+}
