@@ -1,0 +1,59 @@
+.image-container {
+  margin: 5rem 10rem ;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: dense;
+}
+
+.horizontal {
+  grid-column: span 2;
+
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* add dark overlay on hover */
+.overlay-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+/* slide title/time up on hover */
+.overlay > * {
+  transform: translateY(1rem);
+  transition: transform 0.3s;
+}
+
+.overlay:hover > * {
+  transform: translateY(0);
+}
