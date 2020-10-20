@@ -26,7 +26,6 @@ h1, h2, h3, h4 {
 /* Global styles  */
 html, body {
   margin: 0;
-  /* width: 100%; */
   height: 100%; /* keeps the footer at the bottom of window */
   /* background-image: url('../images/test-image.jpg');
   background-color: aliceblue;
@@ -45,7 +44,7 @@ Typography
 ======= */
 
 body {
-  font-family: "Raleway", "Quicksand", Arial, Helvetica,sans-serif;
+  font-family: "Montserrat", "Quicksand", Arial, Helvetica,sans-serif;
   font-style: normal;
   font-size: 1rem;
   letter-spacing: .035rem;

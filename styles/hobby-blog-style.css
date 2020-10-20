@@ -1,7 +1,7 @@
 .image-container {
   margin: 5rem 10rem ;
   display: grid;
-  gap: 1rem;
+  gap: 0.8% 2%;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: dense;
 }
@@ -20,7 +20,6 @@ img {
   height: 100%;
 }
 
-
 /* add dark overlay on hover */
 .overlay-img-container {
   position: relative;
@@ -35,7 +34,6 @@ img {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,4 +54,54 @@ img {
 
 .overlay:hover > * {
   transform: translateY(0);
+}
+
+
+/* =====
+text in overlay 
+===== */
+.image-container * {
+  color: white;
+}
+
+.title {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+.image-container time::before{
+  content: " • "
+}
+
+.blog-details {
+  font-size: 0.8rem;
+}
+
+
+/* underline outwards when hovering over link
+https://paulund.co.uk/css-animation-link-underline */
+.image-container a:hover {
+  text-decoration: none;
+}
+
+.image-container a {
+  position: relative;
+}
+
+.image-container a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.05rem;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.image-container a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
