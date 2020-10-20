@@ -1,0 +1,182 @@
+/* uncomment to make containers visible */
+/* body .flex-container {
+  border: pink dashed 1px;
+}
+body .grid-container {
+  border: purple dashed 1px;
+}
+
+[class*="container"] {
+  border: green dashed 1px;
+}
+
+article {
+  border: blue double 3px;
+}
+
+section {
+  border: red solid 1px;
+}
+
+h1, h2, h3, h4 {
+  border: black dashed 1px;
+} */
+
+
+/* Global styles  */
+html, body {
+  margin: 0;
+  /* width: 100%; */
+  height: 100%; /* keeps the footer at the bottom of window */
+  /* background-image: url('../images/test-image.jpg');
+  background-color: aliceblue;
+  background-size: cover; */
+}
+
+a {
+  text-decoration: none;
+  color: #293047;
+  cursor: pointer;
+}
+
+
+/* =======
+Typography 
+======= */
+
+body {
+  font-family: "Raleway", "Quicksand", Arial, Helvetica,sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: .035rem;
+  line-height: 1.7rem;
+  text-transform: none;
+  color: #293047;
+
+}
+
+header {
+  font-size: 0.7rem;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+}
+
+.header-name {
+  font-size: 1.5rem;
+}
+
+header ul, footer ul {
+  list-style-type: none; 
+}
+
+h2, h3, h4, h5 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+
+/* ========
+Layout 
+======== */
+
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4rem auto 4rem
+}
+
+
+header, main, footer {
+  grid-column: 1 / -1
+}
+
+/* header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-left {
+  display: flex;
+  align-items: center;
+
+  padding: 0 2rem
+
+}
+
+.header-name {
+  /* border: pink solid 1px; */
+  text-align: center;
+  align-items: center;
+  white-space: nowrap; /* prevent the text from wrapping */
+}
+
+.header-nav-right {
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 2rem;
+}
+
+header li {
+  padding: 0 1rem;
+}
+
+img.logo {
+  width: 1.5rem;
+  display: block;
+}
+
+/* main layout */
+main {
+  grid-column: span;
+  grid-row: 2 / 3;
+}
+
+
+
+
+
+/* footer layout */
+footer {
+  background-color: #eef3f4;
+}
+
+.footer-nav {
+  grid-row: -1 / -2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.copy {
+  margin-right: auto;
+}
+
+footer li {
+  padding: 0 0.5rem
+}
+
+/* =======
+hover
+======== */
+a:hover {
+  text-decoration: underline overline;
+  text-decoration-color: coral;
+}
