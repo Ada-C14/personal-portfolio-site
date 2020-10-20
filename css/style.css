@@ -1,0 +1,14 @@
+:root {
+  --offwhite: #F3F0EB;
+  --grey: #494949;
+}
+
+body {
+  background-color: var(--offwhite);
+  color: var(--grey);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
