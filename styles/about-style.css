@@ -1,28 +1,124 @@
-
-
-main {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
+/* =====
+Layout
+===== */
+.about {
+  display: grid;
+  grid-template-columns: 25% 5% 40% 5% 25%;
+grid-gap: 2rem 0;
   max-width: 100rem;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin: 0 auto;
 }
 
+/* h1 {
+  grid-column: 1 / 6;
+  grid-row: 1 / 2 ;
+} */
 
-img {
-  object-fit: contain;
-  align-self: flex-start;
-  object-position: 10% 0%;
-}
+article.journey {
+  grid-column: 3 / 4;
+  grid-row: span 7;
 
-.journey {
-  width: 80%;
-  height: auto;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  border: red 2px solid; */
-  padding: 0 5rem;
-  margin: 0 auto
+  justify-content: center;
+  /* max-width: 100rem; */
 }
+
+.journey h2 {
+  margin-top: 2rem ;
+}
+
+.journey p {
+  margin-bottom: 2rem;
+}
+
+
+/* =====
+Image Layout
+===== */
+img {
+  width: 100%;
+
+}
+
+[src="images/hand-prosthesis.jpg"] {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  padding-top: 2rem;
+}
+
+[src="images/computer-excited.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
+
+}
+
+[src="images/computer-dancing.gif"] {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+[src="images/computer-study.gif"] {
+
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+  height: 100%;
+  overflow: hidden;
+}
+
+[src="images/computer-tired.gif"] {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+
+}
+[src="images/computer-sleep.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 7 / 8;
+}
+
+
+[src="images/computer-fall.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+[src="images/computer-typing.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 6 / 7;
+  height: 100%;
+  overflow: hidden;
+
+}
+[src="images/computer-chill.gif"] {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+
+
+
+/* =====
+Typography
+===== */
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: right;
+
+  background-image: url(../images/computer-desk-illustration.png), url(../images/computer-desk-bg.png);
+  background-position: bottom left;
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+  padding: 5rem;
+  margin: 0;
+}
+

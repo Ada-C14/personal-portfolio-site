@@ -47,8 +47,9 @@ body {
   font-family: "Montserrat", "Quicksand", Arial, Helvetica,sans-serif;
   font-style: normal;
   font-size: 1rem;
-  letter-spacing: .035rem;
+
   line-height: 1.7rem;
+  word-spacing: 0.1rem;
   text-transform: none;
   color: #293047;
 
