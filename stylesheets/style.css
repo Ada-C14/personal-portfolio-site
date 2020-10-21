@@ -82,7 +82,7 @@ img {
 }
 
 .nav #about:hover {
-    background: #9a031e;
+    background: darkred;
     color: var(--light);
 }
 
