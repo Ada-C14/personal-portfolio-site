@@ -45,6 +45,9 @@ header h1 {
     color: #363636;
     text-align: center;
 }
+header h1::after {
+    content: "🍊";
+}
 main {
     height: 800px;
     grid-row: 2 / 3;
