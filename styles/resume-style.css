@@ -87,9 +87,18 @@ Layout
   padding: 0.7rem 1.5rem;
 }
 
+[src="images/hand-prosthesis.jpg"] {
+  height: 10rem;
+  text-align: right;
+}
+
 h5.publications {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+img {
+object-fit: contain;
 }
 
 
@@ -177,7 +186,6 @@ i {
 /* education colors */
 .education .resume-content-header-container {
   background-color: var(--education-color);
-
 }
 
 .education .resume-card {
