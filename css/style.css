@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap");
 
 /* * {
   border: 1px solid black;
@@ -58,15 +58,18 @@ a {
   /* margin: 0 30px 0 30px; */
 }
 
-li:hover {
+li a:hover {
   cursor: pointer;
   text-decoration: underline solid transparent;
   transition: text-decoration 1s ease;
 }
 
 a {
-  color: #797979;
   padding: 0;
+}
+
+ul li a:visited {
+  color: #814ba3;
 }
 
 #logo-link {
@@ -75,6 +78,7 @@ a {
 }
 
 .social-media-links {
+  color: #797979;
   margin-left: 1em;
   font-size: 20px;
 }
@@ -102,6 +106,7 @@ footer {
 }
 
 .icon-social-media {
+  width: 57px;
   height: 55px;
 }
 
@@ -113,4 +118,10 @@ footer {
 .social-media {
   display: flex;
   align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
