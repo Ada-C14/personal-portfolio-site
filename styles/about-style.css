@@ -6,7 +6,7 @@ Layout
   grid-template-columns: 25% 5% 40% 5% 25%;
 grid-gap: 2rem 0;
   max-width: 100rem;
-  margin: 0 auto;
+  margin: 0 auto 5rem auto;
 }
 
 /* h1 {
@@ -16,7 +16,7 @@ grid-gap: 2rem 0;
 
 article.journey {
   grid-column: 3 / 4;
-  grid-row: span 7;
+  grid-row: span 8;
 
   display: flex;
   flex-direction: column;
