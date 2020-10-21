@@ -42,7 +42,7 @@ body {
 }
 
 .btn:hover {
-    background: #e36414;
+    background: #5f0f40;
     color: var(--light);
 }
 
@@ -87,7 +87,7 @@ img {
 }
 
 .nav #blog:hover {
-    background: #fb8b24;
+    background: darkgoldenrod;
     color: var(--light);
 }
 
@@ -123,7 +123,7 @@ img {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 15px;
-    color: #e36414;
+    color: darkgoldenrod;
     text-align: center;
 }
 
