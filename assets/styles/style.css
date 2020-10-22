@@ -1,6 +1,3 @@
-/* Google Fonts */
-/* @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap'); */
-
 :root {
   /* color palette */
   --color1: #372e59;
@@ -9,26 +6,31 @@
   --color4: #82583a;
   --color5: #639a3e;
   --bg: #fbf3e2;
-  --main-font: 'Chango', cursive;
-  --other-font: 'Krona One', sans-serif;
+  /* fonts */
+  --theme-font: 'Chango', cursive;
+  --text-font: Verdana, 'Geneva', sans-serif;
+  --header-font: 'Krona One', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--main-color);
-  font-family: var(--main-font);
+  font-family: var(--theme-font);
   background-color: var(--bg);
 }
 
-a {
-  text-decoration: none;
-  color: var(--main-color)
+h1 {
+  font-size: 1.5rem;
 }
 
 a {
+  color: var(--main-color);
   position: relative;
   text-decoration: none;
 }
-
 a::before {
   content: "";
   position: absolute;
@@ -36,12 +38,11 @@ a::before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: var(--main-color);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
-
 a:focus::before, a:hover::before, a.selected::before {
   visibility: visible;
   transform: scaleX(1);
@@ -63,11 +64,9 @@ header {
   width: 50px;
   padding: 2px;
 }
-
 div.logo > div.grad-animation {
   margin-top: 3px;
 }
-
 div.logo > div.grad-animation a {
   text-decoration: none;
 }
@@ -75,15 +74,13 @@ div.logo > div.grad-animation a {
 nav {
   text-align: right;
 }
-
 nav ul li {
   list-style: none;
   display: inline-block;
   font-size: 2rem;
   padding: 5px 15px;
-  font-family: var(--main-font)
+  font-family: var(--theme-font)
 }
-
 @media only screen and (max-width: 650px) {
   nav ul li {
     display: block;
@@ -91,40 +88,11 @@ nav ul li {
 }
 
 /* MAIN */
-.content {
-  min-height: calc(80vh - 8em);
-  padding: 4em;
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-@media only screen and (max-width: 780px) {
-  .content {
-    max-width: 80%;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .content {
-    padding: 4rem 1rem;
-  }
-}
-
-.content-text {
-  position: relative;
-  top: 20%;
-  padding-left: 5%; 
-  line-height: 2.1rem;
-  font-family: var(--other-font);
-  font-size: 1.5rem;
-}
-
-
 .greeting {
   height: calc(80vh - 8em);
   padding: 4em;
   color: var(--main-color);
 } 
-
 .line-1{
     position: relative;
     top: 40%;  
@@ -137,57 +105,80 @@ nav ul li {
     overflow: hidden;
     transform: translateY(-50%);   
 }
-
-/* Animation */
+/* Greeting Animation */
 .anim-typewriter-1{
   animation: typewriter 1s steps(4) 1s 1 normal both, 
     blinkTextCursor 900ms steps(44) 3 normal forwards;           
 }  
-
 .anim-typewriter-2{
-  animation: typewriter-2 1s steps(2) 2s 1 normal both,
+  animation: typewriter-2 1s steps(3) 2s 1 normal both,
              blinkTextCursor 900ms steps(44) 2.5s normal forwards;
 }
- 
 .anim-typewriter-3{
-  animation: typewriter 2s steps(5) 3s 1 normal both,
-             blinkTextCursor2 900ms steps(44) 3.5s infinite normal forwards;
+  animation: typewriter 1s steps(5) 3s 1 normal both,
+             blinkTextCursor2 900ms steps(44) 3s infinite normal forwards;
 } 
-
 @keyframes typewriter{
   from{width: 0;}
   to{width: 3em;}
 }
-
 @keyframes typewriter-2{
   from{width: 0;}
   to{width: 2.2em;}
 }
-
 @keyframes blinkTextCursor{
   from{border-right-color: var(--main-color);}
   to{border-right-color: transparent;}
 }
-
 @keyframes blinkTextCursor2{
   from{border-right-color: transparent;}
   to{border-right-color: var(--main-color);}
 }   
 
-/* FOOTER */
-
-footer {
-  text-align: center;
+.content, .jounal-content{
+  min-height: calc(80vh - 8em);
+  padding: 4em;
+  max-width: 70%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 780px) {
+  .content {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .content {
+    padding: 4rem 1rem;
+  }
+}
+.content-text {
+  position: relative;
+  top: 20%;
+  padding-left: 5%; 
+  line-height: 2.1rem;
+  font-family: var(--text-font);
+  font-size: 1.5rem;
 }
 
-footer > section {
+article {
+  margin-bottom: 100px;
+}
+.journal-header {
+  border-top: solid var(--main-color) 5px;
+  font-family: var(--header-font);
+}
+.topics {
+  font-family: var(--theme-font);
+}
+.bold {
+  font-weight: bolder;
+}
+
+/* FOOTER */
+footer {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
-}
-
-footer section:nth-child(2) {
-  margin-top: 50px;
 }
 
 /* OTHER STYLING */
@@ -202,7 +193,6 @@ footer section:nth-child(2) {
   -webkit-text-fill-color: transparent;
   animation: shine 60s linear infinite alternate; 
 }
-
 @keyframes shine {
   to {
     background-position: 200% center;
