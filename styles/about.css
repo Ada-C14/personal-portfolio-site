@@ -1,0 +1,17 @@
+.about-me-sum h2 {
+    font-family: "Amatic SC", sans-serif;
+    color: black;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+
+.about-me-sum p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    display: flex;
+    padding-top: 1%;
+    justify-content: center; 
+}
