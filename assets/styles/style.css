@@ -52,6 +52,7 @@ a:focus::before, a:hover::before, a.selected::before {
 
 header {
   width: 100%;
+  max-width: 1400px;
 }
 
 .logo {
@@ -179,6 +180,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
+  padding-bottom: 5%;
 }
 
 /* OTHER STYLING */
@@ -197,4 +199,52 @@ footer {
   to {
     background-position: 200% center;
   }
+}
+
+details {
+  margin: 30px 0px;
+}
+
+#button {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10vh;
+  left: 90vw;
+  border: solid var(--main-color) 3px;
+  border-radius: 50px;
+  height: 40px;
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 4px;
+  background-color: var(--bg);
+  z-index: 9999;
+  
+}
+
+#button {
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  transform-origin: bottom;
+}
+.bounce-7 {
+  animation-name: bounce-7;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+@keyframes bounce-7 {
+  0%   { transform: scale(1,1)      translateY(0); }
+  10%  { transform: scale(1.1,.9)   translateY(0); }
+  30%  { transform: scale(.9,1.1)   translateY(-15px); }
+  50%  { transform: scale(1.05,.95) translateY(0); }
+  57%  { transform: scale(1,1)      translateY(-7px); }
+  64%  { transform: scale(1,1)      translateY(0); }
+  100% { transform: scale(1,1)      translateY(0); }
+}
+
+a#button:focus::before, a#button:hover::before, .top:focus::before, .top:hover::before {
+  visibility: hidden;
+}
+
+.top {
+  font-family: var(--theme-font);
 }
