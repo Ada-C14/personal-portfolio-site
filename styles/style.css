@@ -32,6 +32,10 @@ html, body {
   background-size: cover; */
 }
 
+main {
+  max-width: 100rem;
+}
+
 a {
   text-decoration: none;
   color: #293047;
@@ -44,7 +48,7 @@ Typography
 ======= */
 
 body {
-  font-family: "Montserrat", "Quicksand", Arial, Helvetica,sans-serif;
+  font-family: "Quicksand", Arial, Helvetica,sans-serif;
   font-style: normal;
   font-size: 1rem;
 
