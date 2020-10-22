@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body {
-    background-image: url(https://images.pexels.com/photos/1202822/pexels-photo-1202822.jpeg?cs=srgb&dl=pexels-jordan-benton-1202822.jpg&fm=jpg);
+    /* Download the free background image from here: https://images.pexels.com/photos/1202822/pexels-photo-1202822.jpeg?cs=srgb&dl=pexels-jordan-benton-1202822.jpg&fm=jpg */
+    background-image: url(images/bkgd-img.jpg);
     background-color:#fee09f;
     
     /* Copy CSS code from here http://www.pascalvangemert.nl/#/profile */
