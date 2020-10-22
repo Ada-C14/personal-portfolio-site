@@ -1,0 +1,29 @@
+h1, h2 {
+  text-align: center;
+  color: burlywood;
+}
+
+h2 a {
+  text-decoration: none;
+  color: burlywood;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* how to center my name/description vertically */
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  */

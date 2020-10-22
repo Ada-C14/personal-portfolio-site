@@ -1,28 +1,26 @@
-/* is this a mess? do i need classes? maybe ids..  */
-
 body {
   font-family: Arial, Helvetica, sans-serif;
+  /* margin: 0; padding: 0  */
 }
 
-ul li{
+.site-nav ul li{
   display: inline;
   /* why did this work? is it bad to use px here? */
-
   padding: 10px 70px;
 }
 
 /* what should be here vs nav? */
-ul li a {
+.site-nav ul li a {
  text-decoration: none;
  color: white;
 }
 
 /* idk how to make this extend to the top */
-header {
+header, footer {
   background-color: burlywood;
 }
 
-nav {
+.site-nav {
   display: flex;
   justify-content: space-around;
   text-transform: uppercase;
@@ -32,8 +30,26 @@ nav {
   font-size: 30px;
 }
 
+/* idk how to make this extend all the way to left and right sides */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  padding: 10px;
+}
 
+.contact-info li {
+  display: inline;
+  float: right;
+  padding: 10px 30px;
+}
 
-/* body {
-  background-color: blue;
-} */
+.contact-info li a {
+  color: white;
+ }
+
+ /* idk how to make this in the bottom right and centered with contact info */
+ /* #copyright {
+   float: left;
+ } */
