@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheets/style.css" rel="stylesheet">
+    <link href="stylesheets/about.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/293006cd5b.js" crossorigin="anonymous"></script>
     <title>About</title>
 </head>
 <body>
@@ -12,7 +14,7 @@
         <div class="navbar">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li class="name"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="hobby-blog.html">Blog</a></li>
@@ -20,11 +22,19 @@
             </nav>
         </div>
     </header>
+    <main class="container">
+        <h1 class="about">About Me</h1>
+        <img src="images/circle.png" alt="picture of Roshni">
+        <section class="about-info">
+            <p>My name is Roshni (she/her) and I'm currently a student in Cohort 14 at Ada Developers Academy. Before Ada, I was finishing up my last semester of college at <a target="_blank" href="https://www.wesleyan.edu">Wesleyan University</a>, where I majored in Neuroscience & Behavior, Psychology, and Science in Society. During my time in college, I developed a strong interest in programming through my coursework and involvement in research.</p>
+        </section>
+    </main>
     <footer>
-        <p>© 2020 Roshni Patel<p>
+        <p><i class="far fa-copyright"></i>2020 Roshni Patel</p>
         <ul>
-            <li><a target="_blank" href="https://github.com/roshni-patel">GitHub</a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/roshni-patel">LinkedIn</a></li>
+            <li><a target="_blank" href="https://github.com/roshni-patel"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/roshni-patel"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="mailto:rpatel01@wesleyan.edu"><i class="fas fa-envelope fa-2x"></i></a></li>
         </ul>
     </footer>
 </body>
