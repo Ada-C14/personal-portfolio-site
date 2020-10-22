@@ -1,0 +1,104 @@
+/* * {
+  border: 1px solid black;
+} */
+
+h1,
+h3,
+h4,
+p,
+label {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main-title {
+  font-weight: 600;
+  font-size: 50px;
+  color: #8e5aad;
+  padding: 10px 0;
+}
+
+.blog-title {
+  font-weight: 600;
+  font-size: 32px;
+  color: #8e5aad;
+  padding: 10px 0;
+}
+
+.date {
+  color: #494949;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  margin: 10px 0;
+  margin-top: -5px;
+}
+
+p {
+  display: block;
+  font-weight: 500 normal;
+  font-size: 20px;
+  color: #494949;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+body {
+  overflow: scroll;
+}
+
+footer {
+  position: relative;
+  z-index: 10;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 7em;
+}
+
+#all-blogs {
+  margin-left: 3em;
+}
+
+label {
+  color: #8e5aad;
+  margin: 10px 0;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.additional-text {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.25s ease;
+}
+
+.read-more-state:not(:checked) ~ .additional-text {
+  display: none;
+}
+
+.read-more-state:checked ~ .additional-text {
+  display: block;
+  opacity: 1;
+  font-size: 20px;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: "read more";
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: "read less";
+}
+
+hr {
+  margin: 20px 0;
+}
