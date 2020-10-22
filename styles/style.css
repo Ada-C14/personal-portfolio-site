@@ -3,6 +3,7 @@ body {
   /* margin: 0; padding: 0  */
 }
 
+/* also this looks bad when you make the page more narrow */
 .site-nav ul li{
   display: inline;
   /* why did this work? is it bad to use px here? */

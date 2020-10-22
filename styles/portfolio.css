@@ -1,0 +1,38 @@
+h2 {
+  color: burlywood;
+}
+
+.image {
+  /* 90% of what tho.. who knows */
+  width: 90%;
+  /* float: left;
+  display: inline-block; */
+}
+
+/* .project-description {
+  float: right;
+  display: inline-block;
+} */
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* why doesnt this work with body to make a sticky footer?
+https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+} */
+
+h3 a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
