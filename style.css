@@ -1,0 +1,309 @@
+body {
+    /* Download the free background image from here: https://images.pexels.com/photos/1202822/pexels-photo-1202822.jpeg?cs=srgb&dl=pexels-jordan-benton-1202822.jpg&fm=jpg */
+    background-image: url(images/bkgd-img.jpg);
+    background-color:beige;
+    background-repeat: no-repeat;
+    
+    /* Copy CSS code from here http://www.pascalvangemert.nl/#/profile */
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* ---------------- */
+
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body, html {
+    overflow: auto;
+    height: 100%;
+}
+.main-container {
+    min-height: 100vh;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of the footer */
+    margin-bottom: -50px;
+}
+.grid-content {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+header {
+    grid-column: 1 / span 3;
+}
+main {
+    grid-column: 2 / span 3;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 2rem;
+    color: #363636;
+}
+
+/* Style the navigation bar */
+nav div {
+    background-color: #333;
+    opacity: 0.4;
+    overflow: hidden;
+}
+nav div a {
+    float: right;
+    padding: 14px 16px;
+
+    color: #f2f2f2;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+nav div a:hover {
+    background-color: #ddd;
+    color: black;
+}
+nav div a:first-child {
+    background-color: #4CAF50;
+    color: white;
+}
+
+figure {
+    text-align: center;
+}
+form {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #636363;
+    padding: 1rem;
+}
+header h1 {
+    font-size: 3rem;
+    color: #363636;
+    text-align: center;
+}
+header h1::after {
+    content: "🍊";
+}
+section h1 {
+    width: 35vw;
+    border: 1px solid white;
+    padding: 2rem;
+
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #474747;
+    line-height: 1.5;
+    margin: auto;
+    margin-top: 5rem;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+section h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #474747;
+    padding-top: 2rem;
+}
+section h3 {
+    color: #474747;
+    padding-left: 2rem;
+} 
+section article > p {
+    font-size: 1.1rem;
+    text-align: start;
+    color: #636363;
+    line-height: 150%; 
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+section article h2 + p {
+    font-size: .9rem;
+    line-height: 100%; 
+    color: #878787;
+    text-align: center;
+}
+table {
+    display: block;
+    padding: 1rem;
+    color: #3B3B3B;
+}
+ul {
+    list-style-type: none;
+}
+ul > li {
+    display: flex;
+    justify-content: space-between;
+    color: #636363;
+}
+
+#portfolio-photo {
+    width: 13vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 1vw;
+}
+.about-img {
+    width: 20vw;
+    border-radius: 8px;
+}
+.checked {
+    color: #D45500;
+}
+.contact-center {
+    text-align: center;
+}
+.logo {
+    width: 1.5vw;
+}
+.portfolio-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2;
+    opacity: 0.8;
+    padding: 1rem;
+}
+.init-timeline::before {
+    content: "🍊 ";
+}
+.portfolio-table th, td {
+    text-align: left;
+    padding: 8px;
+}
+.portfolio-table tr:nth-child(even) {
+    background-color:#C2CF9C;
+    opacity: 0.7;
+}
+.textarea {
+    border: 1px solid #888; 
+    width: 30rem;
+    height: 13rem;
+    overflow: hidden;
+}
+.textarea:empty::before {
+    color: gray;
+}
+.star-container {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.full-page {
+    grid-row: 2 / 3;
+    grid-column: 1 / span 3;
+}
+
+/* For code-journey */
+.container {
+    width: 80%;
+    padding: 1rem 0;
+    margin: 1rem auto;
+    position: relative;
+    overflow: hidden;
+}
+.container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+}
+ 
+.timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+ 
+.timeline-block-right {
+    float: right;
+}
+ 
+.timeline-block-left {
+    float: left;
+    direction: rtl
+}
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #4FC1E9;
+    margin-top: 10px;
+    z-index: 9999
+}
+.timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #595959
+}
+.timeline-content h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color:#636363;
+}
+.bode-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+ } 
+/* For hobby-blog*/
+.blog-slogan {
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 25vh;
+}
+.centercolumn {
+    width: 60vw;
+  }
+.fakeimg {
+    background-color:  #B8743B;
+    width: 100%;
+    padding: 20px;
+    height:200px;
+} 
+/* Add a card effect for articles */
+.card {
+    background-color: #C6CCB8;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
