@@ -2,7 +2,8 @@
 body {
     /* Download the free background image from here: https://images.pexels.com/photos/1202822/pexels-photo-1202822.jpeg?cs=srgb&dl=pexels-jordan-benton-1202822.jpg&fm=jpg */
     background-image: url(images/bkgd-img.jpg);
-    background-color:#fee09f;
+    background-color:beige;
+    background-repeat: no-repeat;
     
     /* Copy CSS code from here http://www.pascalvangemert.nl/#/profile */
     -webkit-background-size: 100%; 
@@ -18,10 +19,18 @@ body {
 
     display: grid;
     grid-template-columns: 3fr 4fr;
-    grid-template-rows: 150px auto 50px;
+    grid-template-rows: 150px repeat(auto-fill, 800px) 50px;
     margin: 0;
     font-family: 'Varela Round', Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body,html {
+    position: relative; 
+    margin: 0;
+    padding: 0;
+    overflow: auto; 
+}
+
 figure {
     text-align: center;
 }
@@ -53,7 +62,6 @@ header h1::after {
     content: "🍊";
 }
 main {
-    height: 900px;
     grid-row: 2 / 3;
     grid-column: 2 / span 3;
 }
@@ -82,7 +90,7 @@ nav div a:first-child {
     color: white;
 }
 section h1 {
-    width: 30rem;
+    width: 35vw;
     border: 1px solid white;
     padding: 2rem;
 
@@ -183,3 +191,11 @@ ul > li {
     text-align: right;
     padding-right: 2rem;
 }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
