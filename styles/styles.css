@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.container > li {
+    flex: 1;
+}
+
+a {
+    color: peru;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Andale Mono", monospace;
+    font-size: 20px;
+}
+
+.home {
+    background-image: url(../images/pink_desk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+header {
+    display: grid;
+    height: 100%;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 20px;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+header h1 {
+    grid-column: 1 / 2;
+}
+
+
