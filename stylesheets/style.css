@@ -1,0 +1,55 @@
+.container {
+    min-height: 500px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: [main-start] 50px [content-start] auto [content-end] 40px [main-end];
+    grid-template-columns: 5% [main-start nav-start] 10% [nav-end content-start] 80% [main-end content-end] 5%;
+}
+
+.header{
+    background-color: #268785;
+    color: white;
+    grid-column: main;
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: xx-large;
+    text-align: right;
+    padding: 5px 5px 5px 5px;
+}
+
+.nav {
+    background-color: #F596AA;
+    color: white;
+    grid-column: nav;
+
+    display: flex;
+    flex-direction: column;
+    grid-template: auto / 1fr;
+    grid-gap: 9px;
+}
+
+.nav-list {
+    color: white;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    padding: 10px 5px 10px 5px;
+}
+
+.nav-list, a {
+    color: white;
+    text-decoration: underline dotted;
+}
+
+.content {
+    background-color: #69B0AC;
+    color: white;
+    grid-area: content;
+    padding: 10px 10px 10px 10px;
+}
+
+.footer {
+    background-color: #24936E;
+    color: white;
+    grid-column: main;
+    text-align: right;
+    padding: 5px 5px;
+}
