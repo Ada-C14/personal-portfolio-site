@@ -1,0 +1,13 @@
+h2 {
+  color: burlywood;
+  /* make font bigger without messing up other spacing? */
+  /* font-size: 2em; */
+}
+
+img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
