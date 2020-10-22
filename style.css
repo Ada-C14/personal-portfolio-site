@@ -28,7 +28,7 @@ body, html {
     display: block;
     position: relative;
     padding-bottom: 100px; /* height of the footer */
-    
+    margin-bottom: -50px;
 }
 .grid-content {
     display: grid;
