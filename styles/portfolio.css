@@ -1,0 +1,90 @@
+body {
+    margin-bottom: 5em;
+}
+
+main {
+    text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2.5%;
+}
+
+main h2 {
+    text-align: left;
+    font-family: "Amatic SC", sans-serf;
+    font-size: 2.5em;
+}
+
+.grocery-store {
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 1.5em;
+}
+
+.grocery-store p {
+    padding-bottom: 1.5em;
+}
+
+.grocery-button {
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #FEF7E3;
+    border: 2px solid white;
+
+}
+
+.grocery-button a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+}
+
+.solar-system {
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 1.5em;
+}
+
+.solar-system p {
+    padding-bottom: 1.5em;
+}
+
+.ss-button {
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #FEF7E3;
+    border: 2px solid white;
+
+}
+
+.ss-button a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+}
+
+.ride-share {
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 1.5em;
+}
+
+.ride-share p {
+    padding-bottom: 1.5em;
+}
+
+.rs-button {
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #FEF7E3;
+    border: 2px solid white;
+}
+
+.rs-button a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+}

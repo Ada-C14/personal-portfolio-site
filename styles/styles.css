@@ -63,10 +63,9 @@ nav a:hover {
     color: #2867B2;
 }
 
-
 footer {
     font-family: "Quicksand", sans-serif;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 2.5rem;
 }
