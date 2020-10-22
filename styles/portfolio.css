@@ -27,73 +27,29 @@ main h2 {
     font-size: 2.5em;
 }
 
-.grocery-store {
+main article {
     border-bottom-style: solid;
     border-color: white;
     padding-bottom: 1.5em;
 }
 
-.grocery-store p {
-    padding-bottom: 1.5em;
-}
-
-.grocery-button {
-    border-radius: 12px;
-    padding: 10px;
-    background-color: #FEF7E3;
-    border: 2px solid white;
-
-}
-
-.grocery-button a {
-    text-decoration: none;
-    color: black;
-    font-family: "Quicksand", sans-serif;
-}
-
-.solar-system {
-    border-bottom-style: solid;
-    border-color: white;
-    padding-bottom: 1.5em;
-}
-
-.solar-system p {
-    padding-bottom: 1.5em;
-}
-
-.ss-button {
-    border-radius: 12px;
-    padding: 10px;
-    background-color: #FEF7E3;
-    border: 2px solid white;
-
-}
-
-.ss-button a {
-    text-decoration: none;
-    color: black;
-    font-family: "Quicksand", sans-serif;
-}
-
-.ride-share {
-    border-bottom-style: solid;
-    border-color: white;
-    padding-bottom: 1.5em;
-}
-
-.ride-share p {
-    padding-bottom: 1.5em;
-}
-
-.rs-button {
+main button {
     border-radius: 12px;
     padding: 10px;
     background-color: #FEF7E3;
     border: 2px solid white;
 }
 
-.rs-button a {
+main p {
+    padding-bottom: 1.5em;
+}
+
+main button a {
     text-decoration: none;
     color: black;
     font-family: "Quicksand", sans-serif;
+}
+
+main button a:hover {
+    color: #D2B29B;
 }
