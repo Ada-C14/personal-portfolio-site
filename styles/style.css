@@ -1,0 +1,39 @@
+/* is this a mess? do i need classes? maybe ids..  */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+  display: inline;
+  /* why did this work? is it bad to use px here? */
+
+  padding: 10px 70px;
+}
+
+/* what should be here vs nav? */
+ul li a {
+ text-decoration: none;
+ color: white;
+}
+
+/* idk how to make this extend to the top */
+header {
+  background-color: burlywood;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+
+
+/* body {
+  background-color: blue;
+} */
