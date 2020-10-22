@@ -17,7 +17,7 @@ footer {
     bottom: 0;
     position: absolute;
     margin-left: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.75rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,6 +32,10 @@ footer ul {
     justify-content: space-evenly;
     width: 10%;
     margin-right: 0.5rem;
+}
+
+footer p {
+    margin-bottom: 0;
 }
 
 .navbar {
