@@ -35,20 +35,14 @@ img {
   object-fit: cover;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
-
 }
 
+
 h2 {
-  font-size: 1.5rem;
-  text-align: center;
-
-
   padding: 1rem;
   padding-bottom: 1rem;
   margin-top: -0.5rem
-  
 }
-
 
 p {
   padding: 0 2rem 2rem 2rem;
@@ -61,7 +55,6 @@ h2, p {
   margin: 0;
   border-left:  #0c4c57 0.4rem double;
   border-right:  #0c4c57 0.4rem double;
-
 }
 
 a {
@@ -69,14 +62,26 @@ a {
   padding 0;
 }
 
-/* font-size: calc(.12vh + 1rem); */
-
+/* fit slack logo to project card */
 [src="images/slack-logo.jpeg"] {
- height: 10rem;
+  height: 10rem;
   background-color: #3a0d3b;
 }
 
-h1{
+
+/* =====
+Typography
+===== */
+h1 {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 200;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
 }

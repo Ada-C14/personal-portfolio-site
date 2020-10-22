@@ -1,6 +1,23 @@
-main {
-  display: flex;
+/* main top image */
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+/* line-height: 5rem; */
 
+
+  background-image: url("../images/contact-header.png");
+  background-repeat: no-repeat;
+  background-color: #fff7de;
+  background-size: contain;
+  padding: 4rem 0 2rem 10rem;
+
+  margin: 0;
+}
+
+
+.contact-container {
+  display: flex;
 }
 
 h1 {
