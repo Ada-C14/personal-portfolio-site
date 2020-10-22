@@ -275,14 +275,12 @@ ul > li {
     box-sizing: border-box;
     outline: none;
  } 
-
- .blog-slogan {
+/* For hobby-blog*/
+.blog-slogan {
     width: 30vw;
     text-align: center;
     margin-bottom: 25vh;
 }
-
-/* For hobby-blog*/
 .centercolumn {
     width: 60vw;
   }
