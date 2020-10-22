@@ -33,23 +33,21 @@ main article {
     padding-bottom: 1.5em;
 }
 
-main button {
+main p {
+    padding-bottom: 1.5em;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: .75em;
     border-radius: 12px;
     padding: 10px;
     background-color: #FEF7E3;
     border: 2px solid white;
 }
 
-main p {
-    padding-bottom: 1.5em;
-}
-
-main button a {
-    text-decoration: none;
-    color: black;
-    font-family: "Quicksand", sans-serif;
-}
-
-main button a:hover {
+main a:hover {
     color: #D2B29B;
 }
