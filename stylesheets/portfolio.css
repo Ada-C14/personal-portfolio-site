@@ -1,0 +1,29 @@
+.content {background-color: #328cc1}
+.post {
+    padding: 30px;
+    display: grid;
+    grid-template-rows: [img-start]20% [abstract-start] 80% [abstract-end img-end];
+    grid-template-columns: [abstract-start]50% [abstract-end img-start] 50% [img-end];
+    border-bottom: dashed;
+    border-bottom-width: 1px;
+
+
+}
+
+.title {
+    font-family: "Andale Mono";
+    font-size: 1.5em;
+    font-weight: bold;
+    grid-column: 1 / 2;
+}
+
+.abstract {
+    font-family: Arial;
+    grid-area: abstract;
+}
+
+img {
+    height: 200px;
+    grid-area: img;
+    align-self: center;
+}

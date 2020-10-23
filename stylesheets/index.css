@@ -1,6 +1,7 @@
 .content {
-    padding: 30px 30px 30px 30px;
+    background-color: #d9b310;
+    padding: 30px 60px 30px 60px;
     font-size: xx-large;
-    font-family: "Source Code Pro", Monaco, monospace
-
+    font-family: "Source Code Pro", Monaco, monospace;
+    text-align: center;
 }
