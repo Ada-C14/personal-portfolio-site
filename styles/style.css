@@ -16,6 +16,14 @@ footer section {
   flex-grow: 1;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  /* justify-content: right; */
+}
+
+
 /* this looks bad when screen size changes */
 .site-nav li{
   display: inline;
@@ -51,8 +59,8 @@ nav {
   padding: 0px 20px;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+
+.logo-pic {
+  width: 25%;
+  height: 25%;
 }
