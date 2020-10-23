@@ -24,7 +24,7 @@ main .blinking {
 
 @keyframes blinkingText{
     0%{     color: #3A3A3A;    }
-    49%{    color: #3A3A3A; }
+    49%{    color: #D2B29B; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #3A3A3A;    }
