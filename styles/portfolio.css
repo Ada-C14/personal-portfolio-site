@@ -19,6 +19,10 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
+.project-description {
+  align-self: center;
+}
+
 /* why doesnt this work with body to make a sticky footer?
 https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
 body {
