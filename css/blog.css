@@ -1,0 +1,18 @@
+article {
+  box-shadow: 0 -6px 0 0px #FFDE9D; 
+}
+
+section a:hover {
+  color: #FFDE9D;
+}
+
+.current-page {
+  color: #f1c979;
+}
+
+time {
+  font-size: 0.6rem;
+  color: var(--grey50);
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}

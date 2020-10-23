@@ -1,0 +1,43 @@
+section {
+  box-shadow: 0 -6px 0 0px #EB9DFF; 
+}
+
+section a:hover {
+  color: #e275fd;
+}
+
+.current-page {
+  color: #e275fd;
+}
+
+a[href*="about"]:hover {
+  color: #8ACD8F;
+}
+
+a[href*="blog"]:hover {
+  color: #f1c979;
+}
+
+h2 {
+  /* font-size: 1.5rem; */
+  font-weight: 500;
+  font-family: "IBM Plex Mono", "Karla", san-serif;
+  font-style: italic;
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 0.6rem;
+  color: #e275fd;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+section:not(:first-child) {
+  padding: 1rem 1.5rem 2rem;
+}

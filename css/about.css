@@ -1,0 +1,26 @@
+img {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+section p:first-of-type {
+  margin-top: 1rem;
+}
+
+
+section {
+  box-shadow: 0 -6px 0 0px #A0EEA6; 
+}
+
+section a:hover {
+  color: #8ACD8F;
+}
+
+
+
+.current-page {
+  color: #8ACD8F;
+}
+
