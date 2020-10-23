@@ -1,0 +1,51 @@
+header, footer {
+    background-color: rgb(65, 223, 194);
+}
+
+* {
+    font-family: Poppins;
+}
+
+.header-container, .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+}
+ 
+#logo-img {
+    width: 11%;
+}
+
+#logo-text, #copyright {
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-link {
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+
+.footer-link {
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(243, 63, 149);
+}
+
+a:active {
+    text-decoration: underline;
+}
