@@ -45,12 +45,17 @@
                  36px 36px #e9dd8a;
   }
   
-  h2.title {
+  h2 {
     text-align: center;
-    color: black;
+    color: #439093;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   
+  }
+
+  h2.title {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   /* set background color of site */
@@ -79,6 +84,9 @@
     padding: 3px;
     padding-block-end: 10px;
     border-radius: 30px;
+    border-style: solid;
+    border-color: #F5CEC7;
+    border-width: 10px;
   }
   /* style tech stack box */
   article.tech_stack {
