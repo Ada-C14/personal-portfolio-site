@@ -136,7 +136,7 @@ nav ul li {
   to{border-right-color: var(--main-color);}
 }   
 
-.content, .jounal-content{
+.content, .jounal-content, .project-content{
   min-height: calc(80vh - 8em);
   padding: 4em;
   max-width: 70%;
@@ -152,13 +152,22 @@ nav ul li {
     padding: 4rem 1rem;
   }
 }
-.content-text {
+
+.content-text, .project-text {
   position: relative;
   top: 20%;
   padding-left: 5%; 
   line-height: 2.1rem;
   font-family: var(--text-font);
   font-size: 1.5rem;
+}
+
+.project-content {
+  min-height: 0px;
+}
+
+.project-text {
+  padding-left: 0px;
 }
 
 article {
@@ -169,7 +178,11 @@ article {
   font-family: var(--header-font);
 }
 .topics {
-  font-family: var(--theme-font);
+  font-family: var(--header-font);
+  font-size: 1.1rem;
+  color: var(--bg);
+  background-color: var(--main-color);
+  padding: 5px;
 }
 .bold {
   font-weight: bolder;
@@ -234,14 +247,14 @@ details {
 @keyframes bounce-7 {
   0%   { transform: scale(1,1)      translateY(0); }
   10%  { transform: scale(1.1,.9)   translateY(0); }
-  30%  { transform: scale(.9,1.1)   translateY(-15px); }
+  30%  { transform: scale(.9,1.1)   translateY(-12px); }
   50%  { transform: scale(1.05,.95) translateY(0); }
   57%  { transform: scale(1,1)      translateY(-7px); }
   64%  { transform: scale(1,1)      translateY(0); }
   100% { transform: scale(1,1)      translateY(0); }
 }
 
-a#button:focus::before, a#button:hover::before, .top:focus::before, .top:hover::before {
+a#button:focus::before, a#button:hover::before, .top:focus::before {
   visibility: hidden;
 }
 
