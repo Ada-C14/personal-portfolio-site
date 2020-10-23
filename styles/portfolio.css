@@ -4,15 +4,8 @@ h2 {
 
 .image {
   /* 90% of what tho.. who knows */
-  width: 90%;
-  /* float: left;
-  display: inline-block; */
+  width: 80%;
 }
-
-/* .project-description {
-  float: right;
-  display: inline-block;
-} */
 
 .project {
   display: grid;
@@ -23,13 +16,6 @@ h2 {
   align-self: center;
 }
 
-/* why doesnt this work with body to make a sticky footer?
-https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-} */
 
 h3 a {
   text-decoration: none;
@@ -39,4 +25,11 @@ h3 a {
 
 a:hover {
   text-decoration: underline;
+}
+
+hr {
+  border: 1px solid lightgray;
+  width: 50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
