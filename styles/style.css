@@ -7,7 +7,7 @@ body {
 .site-nav ul li{
   display: inline;
   /* why did this work? is it bad to use px here? */
-  padding: 10px 70px;
+  padding: 10px 20px;
 }
 
 /* what should be here vs nav? */
@@ -29,6 +29,7 @@ header, footer {
   font-weight: bold;
   line-height: 20px;
   font-size: 30px;
+  flex-wrap: nowrap;
 }
 
 /* idk how to make this extend all the way to left and right sides */

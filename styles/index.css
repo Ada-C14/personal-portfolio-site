@@ -22,6 +22,15 @@ h2 {
 }
 
 /* how to center my name/description vertically */
+.intro {
+  display: flex;
+  flex-direction: column;
+  /* why doesnt this work */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+
 /* .container {
   display: flex;
   align-items: center;
