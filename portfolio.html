@@ -1,32 +1,81 @@
-<!-- portfolio.html must include information about the projects you've completed at Ada (or elsewhere) with links to GitHub repo if available, descriptions, images, etc. -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav id="nav">
-        <a href="#">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="blog.html">Blog</a>
-    </nav>
-    <header>
-        <h1>My projects</h1>
-    </header>
-    <div class="content">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-        <div class="four"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>portfolio</title>
+    </head>
+    <body>
+        <header class= "header">
+            <nav id="nav">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>  
+            </nav>
+        </header>
+        <div class="main">
+            <h2>Project</h2>
 
-
-    </div>
-    
-    
-    <footer></footer>
-    
-</body>
+            <div class="row">
+                <div class="column">
+                    <div class="content">
+                    <img src="images/slack.png" alt="Mountains" >
+                    <!-- <h3>Slack-cli</h3> -->
+                    <a href="https://github.com/MonaRahmani/slack-cli" target="_blank"><i class="fa fa-github">slack-cli</i></a>
+                    <hr>
+                    <p>A complete command-line application that interacts with Slack.
+                        This application will be able to: List users and channels,
+                        See details about a user or channel, Send a message to a user or channel
+                    </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                    <img src="images/ride-share.png" alt="Lights" style="width:100%">
+                    <!-- <h3>Ride-share</h3> -->
+                    <a href="https://github.com/MonaRahmani/oo-ride-share" target="_blank"><i class="fa fa-github">ride-share</i></a>
+                    <hr>
+                    <p>A Ruby library that loads lists of passengers, trips and drivers from CSV files,
+                        provides methods for exploring this data, and provides a way to request a new trip.
+                    </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                    <img src="images/solar-system.png" alt="Nature" style="width:100%">
+                    <!-- <h3>Solar-system</h3> -->
+                    <a href="https://github.com/MonaRahmani/solar-system" target="_blank"><i class="fa fa-github">solar-system</i></a>
+                    <hr>
+                    <p>
+                        This project is broken up into three waves. Learning goals are:
+                        create a class to tie together data and methods, 
+                        create a class which manages a collection of other objects
+                        Write code that interacts with classes.
+                    </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                    <img src="images/grocery-store.png" alt="Mountains" style="width:100%">
+                    <!-- <h3>Grocery-store</h3> -->
+                    <a href="https://github.com/MonaRahmani/grocery-store" target="_blank"><i class="fa fa-github">grocery-store</i></a>
+                    <hr>
+                    <p>
+                        A library code that grocery stores would use. This library code 
+                        keeps track of the orders that people make in the store.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <h4> &copy; 2020 | Design HTML5</h4>
+        </footer>
+    </body>
 </html>

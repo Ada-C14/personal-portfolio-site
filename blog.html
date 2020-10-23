@@ -1,22 +1,77 @@
-<!-- code-journal.html or hobby-blog.html should be a page with several articles or blog-style posts about either your journey/observations about programming or a hobby you enjoy. -->
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav id="nav">
-        <a href="#">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="blog.html">Blog</a>
-    </nav>
-    <header></header>
-    <!-- Inside of the <nav>, there are links to all of the other pages -->
-    <nav></nav>
-    <footer></footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/blog.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Blog</title>
+    </head>
+    <body>
+        <header class= "header">
+            <nav id="nav">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>  
+            </nav>
+        </header>
     
-</body>
+        <div class="wrapper">
+            <div class="item">
+                <section class="content">
+                    <h1 id="topic">Top Programming Blogs to Improve Your Skills</h1>
+                    <!-- <p>It’s important to follow trends in your field to ensure you’re staying current on standards</p> -->
+                </section>
+
+                <section class="content">
+                    <p>It’s important to follow trends in your field to ensure you’re staying current on standards
+                        By following the best programming blogs you’ll find tips and shortcuts
+                        you may never have otherwise thought to try. Consider using an RSS feed
+                        reader through your phone or desktop browser to automatically
+                        download each new post from these top coding bloggers.
+                    </p>
+                </section>
+
+                <section class="content">
+                    <h1>Coding Horror</h1>
+                    <img src="images/coding-horror.png" alt="coding horror">
+                    <p>Coding Horror was started in 2004 by Jeff Atwood, an experienced software engineer from Berkeley, CA.
+                        Jeff’s experience, as well as his awareness of the human side of technology, makes his website one of the
+                        best programming blogs for anyone interested in web development, software engineering and computers
+                        in general.
+                    </p>
+                    <a href="https://blog.codinghorror.com/">https://blog.codinghorror.com/</a>
+                </section>
+
+                <section class="content">
+                    <h1>A List Apart</h1>
+                    <img src="images/list-apart.png" alt="dlist-apart">
+                    <p>Several bloggers contribute to this code-based blog to create a highly informative and
+                        entertaining stream of posts. Follow this programming blog to learn about issues
+                        affecting web accessibility, user interfaces, programming languages, front-end
+                        development and HTML/CSS.
+                    </p>
+                    <a href="https://alistapart.com/">https://alistapart.com/</a>
+                </section>
+
+                <section class="content">
+                    <h1>CodeWall</h1>
+                    <img src="images/CodeWall.png" alt="CodeWall">
+                    <p>Created by British web developer Dan Englishby, CodeWall is a website providing useful,
+                        in-depth tutorials for both front-end and back-end developers.
+                        CodeWall has many articles on topics as such as HTML/CSS, Node.js, JavaScript, and
+                        PHP that will appeal to both motivated beginners and experienced coders.
+                    </p>
+                    <a href="https://www.codewall.co.uk">https://www.codewall.co.uk</a>
+                </section>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <h4> &copy; 2020 | Design HTML5</h4>
+        </footer>
+    </body>
 </html>

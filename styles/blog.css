@@ -35,51 +35,49 @@ header {
     font-size: 16px;
 }
 
-/* card */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 500px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-    width: 25%;
-    margin-top: 20px;
-    background-color: ivory;
-  }
-.card p {
-    text-align: justify;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    /* grid-auto-rows: 200px; */
+    grid-template-areas: 
+      ". a a ."
+      ". a a .";
+      
 }
-.card > .content {
-    padding: 5%;
+.item {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
 }
 
-.title {
-    color: grey;
-    font-size: 18px;
-}
-  
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
-  
-button:hover, a:hover {
-    opacity: 0.7;
+.content #topic {
+    font-size: 45px;
+    text-align: center;
+    padding: 1em;
 }
 img {
-    width:80%;
-    height: 50%;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 25px;
+    border: 1px solid;
+}
+.wrapper > .item > .content > p {
+    padding-bottom: 1em;
+    font-size: 16px;
+} 
+.content a {
+    padding-bottom: 30px;
 }
 
 
 .footer {
     text-align: center;
     font-size: small;
-    bottom: 0;   
-    background-color: tomato; 
+    bottom: 0; 
+    background-color: tomato;   
     flex-shrink: 0;
     padding: 20px;
+
 }
-
-
+    
