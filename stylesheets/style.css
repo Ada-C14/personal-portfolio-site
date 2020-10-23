@@ -37,3 +37,15 @@ h1, h2 {
     text-justify: center;
 }
 
+article {
+    width: 100%;
+}
+
+article:nth-child(odd) {
+    text-align: right;
+    background-color: aliceblue;
+}
+
+article:nth-child(even) {
+    text-align: left;
+}
