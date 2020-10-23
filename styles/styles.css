@@ -20,6 +20,9 @@ a {
 body {
     font-family: "Andale Mono", monospace;
     font-size: 20px;
+    display: block;
+    position: relative;
+    min-height: 100vh;
 }
 
 .home {
@@ -35,7 +38,7 @@ footer {
     height: 2.5rem;
 }
 
-header {
+.intro {
     display: grid;
     height: 100%;
     grid-gap: 3px;
@@ -54,5 +57,14 @@ header h3 {
 header h1 {
     grid-column: 1 / 2;
 }
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
 
 
