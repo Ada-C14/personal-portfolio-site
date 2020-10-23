@@ -16,8 +16,8 @@ main {
     font-family: "Quicksand", sans-serif;
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-top: 2.5%;
 }
 
@@ -34,6 +34,10 @@ main article {
 }
 
 main p {
+    padding-bottom: .5em;
+}
+
+main ul {
     padding-bottom: 1.5em;
 }
 
