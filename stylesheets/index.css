@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    flex: 1 1 20%;
+}
+
+#bar {
+    flex: 1 1 auto;
+}
+
+nav {
+    flex: 4 2 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+p {
+    
+}
+
+footer {
+    flex: 1 1 10%;
+    color: green;
+}
