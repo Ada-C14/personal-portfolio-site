@@ -12,17 +12,53 @@ header, footer, main {
   grid-template-rows: 1fr 5fr 1fr;
 }
 
-footer section {
+.contact li{
+  display: inline;
+  /* padding: 0; */
+}
+.contact li img {
   flex-grow: 1;
 }
+
+
+/* .fuckthis {
+  text-align: right 
+} */
+/* .contact li:nth-child(2) {
+  margin-left: -1px;
+} */
+
+/* .contact li a {
+  justify-self: right;
+} */
+
+/* .logo-pic {
+  border: 10px solid purple;
+} */
+
+/* footer section {
+  flex-grow: 1;
+} */
 
 footer {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  /* justify-content: right; */
+  /* justify-content: space-between; */
 }
 
+.logo-pic {
+  width: 10%;
+  height: 10%;
+}
+
+.contact-info :nth-child(2) {
+  margin-left: auto;
+}
+
+/* .contact-info a {
+  float: right
+} */
 
 /* this looks bad when screen size changes */
 .site-nav li{
@@ -53,14 +89,8 @@ nav {
 
 
 
-.contact-info li {
+/* .contact-info li {
   display: inline;
   float: right;
   padding: 0px 20px;
-}
-
-
-.logo-pic {
-  width: 25%;
-  height: 25%;
-}
+} */
