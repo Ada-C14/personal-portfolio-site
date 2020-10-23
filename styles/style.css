@@ -16,21 +16,22 @@ footer section {
   flex-grow: 1;
 }
 
-/* also this looks bad when you make the page more narrow */
-.site-nav ul li{
+/* this looks bad when screen size changes */
+.site-nav li{
   display: inline;
-  /* why did this work? is it bad to use px here? */
-  padding: 10px 20px;
+  /* padding: 10px 30px; */
 }
+
 
 /* what should be here vs nav? */
-.site-nav ul li a {
+.site-nav li a {
  text-decoration: none;
  color: white;
+ margin: 1em;
+ padding: 1em;
 }
 
-/* idk how to make this extend to the top */
-header{
+nav {
   background-color: burlywood;
 }
 
@@ -41,6 +42,8 @@ header{
   font-weight: bold;
   font-size: 2em;
 }
+
+
 
 .contact-info li {
   display: inline;
