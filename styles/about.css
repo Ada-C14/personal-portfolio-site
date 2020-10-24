@@ -83,13 +83,7 @@ li {
   font-weight: 100;
 }
 
-.content-right .blurb p {
-  /* font-size: 13px; */
-  /* font-weight: 300; */
-}
-
-.blurb li {
-  /* color: #606C38; */
-  /* font-size: 13px; */
-  /* margin-left: 10px; */
-}
+/* .blurb li:hover {
+  font-weight: 600;
+  background-color: #FEFAE0;
+} */
