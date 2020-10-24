@@ -4,45 +4,12 @@
     <meta charset="UTF-8">
     <title>Journal</title>
     <link href="../stylesheets/style.css" rel="stylesheet"/>
-    <link href="../stylesheets/journal.css" rel="stylesheet"/>
+    <link href="../stylesheets/secondary-styles.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
-    <div class="flex-container">
-        <div class="flip-card form">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <h1> Contact ME</h1>
-                </div>
-                <div class="flip-card-back">
-                    <form action=”mailto:avuwxr@m.womenhack.com” method=”POST”>
-                        <div>
-                            <label for="name">Your name:</label>
-                            <input id="name" name="name" type="text" placeholder="It's you!">
-                        </div>
-                        <div>
-                            <label for="email">Your email:</label>
-                            <input id="email" name="email" type="text" placeholder="You@your_email.org">
-                        </div>
-                        <div>
-                            <br><label for="source">Hey, how'd ya find me?:</label>
-                            <select id="source" name="source">
-                                <option value="magic">Magic and fate</option>
-                                <option value="friend">You've got a friend in me</option>
-                                <option value="foe">Foe (like, why are you even here?)</option>
-                            </select><br/>
-                        </div>
-                        <div>
-                            <label for="message">Your message:</label>
-                            <input id="message" name="message" type="text" placeholder="Tell me sweet nothings">
-                        </div>
-                        <br><input type="submit" value="Send the message!"><br/>
-                    </form>
-                    <a href="https://www.linkedin.com/in/stacylundquist">Or there's LinkedIn</a>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
+    <div class="container">
+        <div class="flip-card grid-item">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
                     <img src="../images/WFH.jpg" alt="Work from home bitmoji">
@@ -52,9 +19,13 @@
                 </div>
             </div>
         </div>
+        <div class="grid-item">
+            <br>Each card represents a topic, <br>--soon to be blog posts--<br/> take a look at the synopsis and click
+            on the link for the full post (when available). <h3>It's not talking to myself if someone else is reading it too</h3><br/>
+        </div>
         <div>
             <nav>
-                <div class="flip-card nav">
+                <div class="flip-card grid-item">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <h1>Navigate like a Navigator <br>(aka LINKS)</h1>
@@ -63,52 +34,83 @@
                             <h1>All the pages!</h1>
                             <a href="index.html">Return HOME</a><br/>
                             <a href="portfolio.html">Check out the coding portfolio</a><br/>
-                            <a href="journal.html">Read a little blog</a><br/>
+                            <a href="contact&about.html">CONTACT/ABOUT ME</a><br/>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
     </div>
-
 </header>
-<section class="nav">
-    <nav>
+<main id="main">
+    <section>
+        <h2>And Then She....</h2>
+    </section>
+    <section>
         <div class="flex-container">
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <h1>About Stacy <br> and contact information </h1>
+                        <h1>Got into Ada!</h1>
                     </div>
                     <div class="flip-card-back">
-                        <h1>I likes exclamations! <br> Saying aces! <br> & learning new things. <br> For more info <a
-                                href="contact&about.html">CLICK HERE</a></h1>
+                        <h1>2020</h1>
                     </div>
                 </div>
             </div>
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <h1>Portfolio </h1>
+                        <h1>Read Dread Nation</h1>
                     </div>
                     <div class="flip-card-back">
-                        <h1> <a href="portfolio.html">CLICK HERE</a> for the page with all of the CODING PROJECTS, information, and experience</h1>
+                        <h1>2020</h1>
                     </div>
                 </div>
             </div>
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <h1>BLOG(s) </h1>
+                        <h1>Went to Iceland!</h1>
                     </div>
                     <div class="flip-card-back">
-                        <h1>Yeah, sometimes I write a little bit. <a href="journal.html">CLICK HERE</a> to check it out.</h1>
+                        <h1>2019</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1>Went to Iceland...again</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>2019</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1>Went to the Taj Mahal!</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>2019</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1>Went back to coffee...again</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>2015</h1>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
-</section>
+    </section>
+</main>
 <footer>
     <p>All rights reserved &copy; Ace the Space, 2020</p>
 </footer>

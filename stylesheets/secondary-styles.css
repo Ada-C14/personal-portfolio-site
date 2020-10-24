@@ -1,0 +1,41 @@
+header, footer {
+    background-color: rebeccapurple;
+    border: 10px solid papayawhip;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form .flip-card-front {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.form .flip-card-back {
+    background-color: dodgerblue;
+    color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: papayawhip;
+    flex-grow: 2;
+}
+
+#main .flip-card-front {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#main .flip-card-back {
+    background-color: dodgerblue;
+    color: black;
+}
