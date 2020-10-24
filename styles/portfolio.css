@@ -1,3 +1,7 @@
+section.text {
+    margin-top: 1em;
+}
+
 div.portfolio-grid {
     display: grid;
     grid-gap: 5px;
@@ -56,4 +60,8 @@ div.bottom-image {
 
 div.bottom-image img {
     max-width: 50%;
+}
+
+div.divider:first-of-type {
+    transform: scaleY(-1);
 }
