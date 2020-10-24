@@ -99,8 +99,10 @@ nav ul, li {
     list-style-type: none;
     padding-right: 15px; 
     padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     font-size: 1.15em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  'Press Start 2P', Arial, Helvetica, sans-serif;
 }
 
 /* Main Content Styles */
@@ -155,15 +157,15 @@ footer {
 }
 
  /* ====================================================================================================================
- * ADJUSTMENT STYLES FOR SMALL SCREENS
+ * ADJUSTMENT STYLES FOR SCREEN SIZE
  * ====================================================================================================================*/
 
-@media screen and (min-width: 600px) { 
+@media screen and (min-width: 900px) { 
     .web-layout {
         height: 100%;
         display: grid;
-        grid-template-columns: 10vh 3fr 10vh;
-        grid-template-rows: .5fr .25fr auto .25fr;
+        grid-template-columns: 15vh 3fr 15vh;
+        grid-template-rows: .5fr .25fr auto .15fr;
         grid-template-areas:
           "r h l"
           "r a l"
