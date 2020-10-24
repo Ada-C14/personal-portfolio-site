@@ -9,14 +9,14 @@
 }
 
 .title {
-    font-family: "Andale Mono";
+    font-family: "Source Code Pro", Monaco, monospace;
     font-size: 1.5em;
     font-weight: bold;
     grid-column: 1 / 2;
 }
 
 .abstract {
-    font-family: Arial;
+    font-family: "Andale Mono";
     grid-area: abstract;
     padding: 20px 10px 5px 0px;
 }
