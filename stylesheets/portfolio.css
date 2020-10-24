@@ -1,13 +1,11 @@
 .content {background-color: #328cc1}
 .post {
-    padding: 30px;
+    padding: 30px 20px 0px 50px;
     display: grid;
     grid-template-rows: [img-start]20% [abstract-start] 80% [abstract-end img-end];
     grid-template-columns: [abstract-start]50% [abstract-end img-start] 50% [img-end];
     border-bottom: dashed;
     border-bottom-width: 1px;
-
-
 }
 
 .title {
@@ -20,10 +18,18 @@
 .abstract {
     font-family: Arial;
     grid-area: abstract;
+    padding: 20px 10px 5px 0px;
 }
 
 img {
     height: 200px;
     grid-area: img;
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+article > a:hover {
+    opacity: 0.8;
+    color: #f7882f;
 }
