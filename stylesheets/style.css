@@ -1,9 +1,14 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
+    min-height: 100%;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 20% 1fr 10%;
-    align-items: stretch;
-    margin: 0;
     color: #1D2108;
     font-family: monospace;
 }
@@ -67,7 +72,11 @@ a {
 }
 
 a:visited {
-    color: #90a2c4;
+    color: #876308;
+}
+
+article:nth-child(even) a:visited {
+    color: #f5ca5a;
 }
 
 nav ul {
