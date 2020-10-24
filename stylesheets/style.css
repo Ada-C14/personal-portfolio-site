@@ -52,7 +52,7 @@ header, footer {
 
 .flip-card-back {
     background-color: whitesmoke;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
 }
 
