@@ -1,26 +1,37 @@
 img {
   width: 100%;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-section p:first-of-type {
   margin-top: 1rem;
 }
 
+.about p{
+  font-size: 0.8rem;
+}
 
-section {
-  box-shadow: 0 -6px 0 0px #A0EEA6; 
+.about > :not(:last-child):not(:first-child) {
+  margin-bottom: 1rem;
 }
 
 section a:hover {
-  color: #8ACD8F;
+  color: var(--section);
+}
+
+.contact {
+  font-size: 0.7rem;
+  border-top: 1px solid var(--main);
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.about a {
+  text-decoration: underline;
+  border-bottom: none;
 }
 
 
-
-.current-page {
-  color: #8ACD8F;
-}
 

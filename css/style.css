@@ -1,52 +1,59 @@
 :root {
-  --background: #F5F5F5;
+  --main: #686868;
+  --background: white;
   --grey: #494949;
   --grey50: #4949497e;
   --grey10: #4949491a;
+  --links: #8A8A8A;
+  --section: #c5a1ff;
+  --bodyfont: "IBM Plex Sans", san-serif;
+  --headerfont: "Karla", san-serif;
+  --rule: #4949491a;
 }
 
 html {
   height: 100%;
 }
 
-h1 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  font-family: "IBM Plex Mono", "Karla", san-serif;
-  font-style: italic;
+h1, h2 {
+  font-family: var(--headerfont);
 }
 
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
 h2 {
-  /* font-size: 1.5rem; */
+  font-size: 1.2rem;
   font-weight: 700;
-  font-family: "IBM Plex Mono", "Karla", san-serif;
-  font-style: italic;
+
   text-decoration: none;
 }
 
-a {
-  /* box-shadow: inset 0 -.3rem #ECD4FF; */
-  text-decoration: underline;
-  /* border-bottom: 2px dotted currentColor; */
+p a, .contact-info a {
+  border-bottom: 1px solid currentColor;
 }
 
 p {
-  color: #8A8A8A;
+  color: var(--main);
 }
 
 .contact-info {
   display: flex;
   font-size: 0.7rem;
   margin: 0.1rem 0 1rem 0;
-  color: #8A8A8A;
+  color: var(--link);
 }
 
 .contact-info > * {
   margin-right: 0.3rem;
 }
 
-.project p {
-  font-size: 0.75rem;
+.project p, article p {
+  font-size: 0.8rem;
   line-height: 1.5;
 }
 
@@ -54,12 +61,13 @@ p {
 
 body {
   background-color: var(--background);
-  color: var(--grey);
+  color: var(--main);
   display: grid;
   min-height: 100%;
-  grid-template-columns: 1fr 1.5rem [main-start] minmax(0, 24rem) [main-end] 1.5rem 1fr;
+  grid-template-columns: 1fr [main-start] minmax(0, 30rem) [main-end] 1fr;
   grid-template-rows: 5rem auto 1rem;
 }
+
 
 body > * {
   grid-column: main;
@@ -87,39 +95,24 @@ nav a {
 /* Grid Layer 2 */
 
 main {
-  grid-column: 2 / 5;
+  grid-column: main;
   display: flex;
   flex-direction: column;
   /* padding: 0.5rem 0; */
-}
-
-.design .project {
-  display: flex;
-}
-
-.description {
-  margin-left: 1rem;
-}
-
-/* add spacing between projects */
-.project:not(:last-child) {
-  margin-bottom: 1.5rem;
 }
 
 
 
 section, article{
   grid-column: main;
-  padding: 1.5rem 1.5rem 1.75rem;
   margin: 1rem 0;
-  background-color: white;
-  /* border-radius: 0.4rem; */
+  padding: 1rem 0;
   transition: 0.1s;
-  /* box-shadow: 10px 11px 0 0px var(--grey10); */
 }
 
-section a {
+section:not(:first-child) p a {
   transition: 0.1s;
+  color: var(--link);
 }
 
 footer {
@@ -128,4 +121,23 @@ footer {
   align-self: flex-end;
 }
 
+a.current-page {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid currentColor;
+}
+
+
+nav a:not(.current-page):hover {
+  color: var(--section);
+}
+
+@media (max-width: 600px) {
+  .design .project {
+    display: block;
+  }
+
+  body {
+    grid-template-columns: 1fr [main-start] 90% [main-end] 1fr;
+  }
+}
 

@@ -1,43 +1,68 @@
-section {
-  box-shadow: 0 -6px 0 0px #EB9DFF; 
+
+
+section:not(:first-child) {
+  border-top: solid 0.4rem var(--rule);
 }
 
 section a:hover {
-  color: #e275fd;
+  color: var(--section);
 }
 
-.current-page {
-  color: #e275fd;
-}
 
-a[href*="about"]:hover {
-  color: #8ACD8F;
-}
-
-a[href*="blog"]:hover {
-  color: #f1c979;
-}
-
-h2 {
-  /* font-size: 1.5rem; */
-  font-weight: 500;
-  font-family: "IBM Plex Mono", "Karla", san-serif;
-  font-style: italic;
-}
-
+ 
 h2 a {
   text-decoration: none;
 }
 
 .section-title {
   font-size: 0.6rem;
-  color: #e275fd;
+  color: var(--section);
   margin-bottom: 1rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+
 }
 
-section:not(:first-child) {
-  padding: 1rem 1.5rem 2rem;
+section {
+  padding: 1rem 0 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.code-link {
+  font-size: 0.7rem;
+}
+
+/* .design .project {
+  display: flex;
+} */
+
+/* add spacing between projects */
+.project:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.hover-images {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  
+}
+
+.logo {
+  opacity: 0;
+  transition: 0.1s;
+  transition-timing-function: ease;
+}
+
+
+
+.hover-images * {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.hover-images:hover .logo {
+  opacity: 1;
 }
