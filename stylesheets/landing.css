@@ -1,0 +1,66 @@
+.container-writing {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 120px;
+    position: absolute;
+}
+.writing {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+}
+.writing h1 {
+    font-size: 93px;
+    width: 650px;
+    margin: 30px 0 30 px 40px;
+    /*margin: 30px 0 30px;*/
+    /*line-height: 25px;*/
+    text-align:center;
+    background: white;
+    border-style: solid;
+}
+.writing p {
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30 px 40px;
+    /*margin: 30px 0 30px;*/
+    line-height: 25px;
+    text-align:center;
+    background: white;
+    border-style: solid;
+}
+body {
+    font-family: sans-serif, "Times New Roman";
+}
+
+/*nav {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: white;*/
+/*    border-style: solid;*/
+/*    font-size: large;*/
+/*    !*text-align: center;*!*/
+/*}*/
+
+/*.menu ul{*/
+/*    display: inline-flex;*/
+/*    margin: 30px;*/
+/*}*/
+/*.nav-links ul li {*/
+/*    list-style: none;*/
+/*    margin: 2 20px;*/
+/*    color: black;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+/*header {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    height: 10vh;*/
+/*}*/
+
+
+
