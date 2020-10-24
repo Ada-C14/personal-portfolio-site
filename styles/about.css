@@ -1,31 +1,11 @@
-header nav {
-  display: flex;
-  position: relative;
-  justify-content: flex-end;
-}
-
-header nav p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-header nav p a:link, header nav p a:visited {
-  text-decoration: none;
-  color: #606C38;
-  /* font-weight: 300; */
-}
-
-header nav p a:hover {
-  color: #DDA15E;
-  font-style: italic;
-}
-
 .main-content {
-  position: relative;
+  /* position: relative; */
   float: left;
   min-width: 900px;
   width: 85%;
   height: 28rem;
+  display: flex;
+  /* align-self: center; */
 }
 
 .main-content .not-home-img {
@@ -38,6 +18,12 @@ header nav p a:hover {
 .main-content .content-right {
   margin-left: 400px;
   position: absolute;
+  justify-content: flex-end;
+}
+
+.main-content .content-right h1 {
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 .main-content .content-right h1 a {

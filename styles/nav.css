@@ -1,0 +1,21 @@
+header nav {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+header nav p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header nav p a:link, header nav p a:visited {
+  text-decoration: none;
+  color: #606C38;
+  /* font-weight: 300; */
+}
+
+header nav p a:hover {
+  color: #DDA15E;
+  font-style: italic;
+}
