@@ -160,7 +160,7 @@ footer {
  * ADJUSTMENT STYLES FOR SCREEN SIZE
  * ====================================================================================================================*/
 
-@media only screen 
+/* @media only screen 
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
 
@@ -177,11 +177,11 @@ and (max-device-width: 667px) {
           "f f f";
       }
 
-    .web-layout > * { /* refers to all items */
-        grid-column: 1 / -1; /* set items to exist inside 80px borders */
-        min-width: 0; /* prevent items from centering weirdly */
+      .web-layout > * { 
+        grid-column: 1 / -1; 
+        min-width: 0;
     }  
-}
+} */
 
 @media screen and (min-width: 900px) { 
     .web-layout {

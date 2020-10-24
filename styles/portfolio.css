@@ -4,6 +4,8 @@ div.portfolio-grid {
     grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
     align-items: center;
     justify-content: space-evenly;
+    position:relative;
+    background: none;
 }
 
 /* 
@@ -11,9 +13,40 @@ div.portfolio-grid < div {
     display: inline-block;
 } */
 
-div.portfolio-grid img a:hover {
-  background-color: yellow;
-  opacity:1.0;
+div.portfolio-img {
+    display: inline-block;
+	float:left;
+	position: relative;
+}
+
+div.portfolio-img:hover {
+    background: black;
+}
+
+div.portfolio-grid:hover img {
+	-webkit-opacity: 0;
+	-moz-opacity: 0;
+	opacity: 0;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+div.portfolio-grid h5 {
+    display: none;
+}
+
+div.portfolio-grid:hover .imageTitle{
+    display: block !important;
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	margin: 0 auto;
+	bottom: 50%;
 }
 
 div.bottom-image {
