@@ -3,9 +3,16 @@
 } */
 
 div.text-body {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     margin-top: 15px;
+}
+
+section.bottom-image {
+    background-image: url("images/bottomborder.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
