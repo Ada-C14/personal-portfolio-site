@@ -1,11 +1,9 @@
 .main-content {
-  /* position: relative; */
   float: left;
   min-width: 900px;
   width: 85%;
   height: 28rem;
   display: flex;
-  /* align-self: center; */
 }
 
 .main-content .not-home-img {
@@ -61,8 +59,8 @@
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   border: 0.25px solid #606C38;
   /* border-radius: 5px; */
 }

@@ -11,32 +11,27 @@ body {
   color: #283618;
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Mulish', sans-serif; */
+}
+
+.body-container {
   display: grid;
   grid-template-rows: 80px auto 100px;
+  align-items: center;
 }
 
 header {
   grid-row: 1;
-  height: 20px;
-  margin-top: 15px;
-  margin-left: 30px;
-  width: 90%;
-  position: fixed;
-  z-index: 1;
-  /* background-color: white; */
-  /* display: flex;
-  justify-content: flex-end; */
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .page-name {
-  /* grid-row: 1;
-  height: 20px;
-  margin-top: 15px;
-  margin-left: 30px; */
-  position: absolute;
+  margin-left: 30px;
   font-size: 16px;
   font-weight: 600;
-  /* width: 90%; */
 }
 
 .main-content {
