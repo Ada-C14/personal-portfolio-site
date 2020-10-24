@@ -29,7 +29,7 @@ img {
     margin-right: auto;
     border-radius: 15px;
 }
-article > a:hover {
+div > a:hover {
     opacity: 0.8;
     color: #f7882f;
 }
