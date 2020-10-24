@@ -15,7 +15,7 @@ body {
 
 .body-container {
   display: grid;
-  grid-template-rows: 80px auto 100px;
+  grid-template-rows: 75px auto 100px;
   align-items: center;
 }
 
@@ -38,6 +38,9 @@ header {
   grid-row: 2;
   position: relative;
   height: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {

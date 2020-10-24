@@ -1,9 +1,9 @@
 header nav {
   display: flex;
   position: relative;
-  /* justify-content: flex-end; */
   align-self: center;
   justify-self: right;
+  margin-right: 30px;
 }
 
 header nav p {
