@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #B7E3E4;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border: thick double #CA054D;
+    position: sticky;
+    top: 0;
+    background-color: #B7E3E4;
+}
+
+#name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #F03F35
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px 20%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    
+    border-top: 12px solid rgb(0, 0, 0);
+  }
+
+main {
+    flex: 1 0 auto;
+    padding: 5px 5px;
+}
+
+footer {
+    flex-shrink: 0;
+    /* width: 100%; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    padding: 5px 5px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    display: inline-block;
+    /* vertical-align: middle; */
+    /* doesn't work because list items are not an in-line element */
+}
+
+.richelle-photo {
+    width: 250px;
+    float: left;
+    padding-right: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+main .education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.473);
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+blockquote {
+    background: #f03e3546;
+    border-radius: 10px;
+    font-style: italic;
+    padding: 0 5px;
+}
+
+main ul {
+    list-style-type: disc;
+}
