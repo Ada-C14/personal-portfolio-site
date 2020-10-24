@@ -19,11 +19,11 @@ nav {
     justify-items: center;
 }
 
-p {
-    
+a {
+    text-decoration-line: none;
+    font-size: 200%;
 }
 
 footer {
     flex: 1 1 10%;
-    color: green;
 }
