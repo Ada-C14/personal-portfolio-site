@@ -1,0 +1,52 @@
+header {
+   text-align: right;
+   background-color: rgb(252, 89, 71);
+   color: white
+ }
+ footer {
+   text-align: right;
+ }
+ body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: salmon;
+ }
+ li a {
+   color: white;
+ }
+ ul li a:hover {
+   color: red;
+ }
+ a:visited {
+   color: purple;
+ }
+ footer #disclaimer { 
+   font-size: .5em;
+ }
+ header ul {
+   list-style-type: none;
+ }
+ footer ul {
+   list-style-type: none;
+ }
+ /* .container {
+   width: 1000px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;  
+   text-align: left;
+ }
+ .container {
+   justify-content: space-evenly;
+   /* align-items: flex-start; 
+ } */
+ 
+ main {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-gap: 20px;
+ }
+ 
+
+ main > section {
+   grid-column: auto;
+ }
