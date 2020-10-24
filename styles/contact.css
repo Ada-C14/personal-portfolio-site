@@ -1,5 +1,5 @@
 div.text-body {
-    margin-top: 4em;
+    margin-top: 4.5em;
 }
 
 section.bottom-image {
@@ -7,8 +7,8 @@ section.bottom-image {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    background-size: 25em;
-    min-height: 400px;
+    background-size: 20em;
+    min-height: 20em;
     padding-top: 2em;
     padding-bottom: 2em;
 }
