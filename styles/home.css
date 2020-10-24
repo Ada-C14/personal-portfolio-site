@@ -15,15 +15,26 @@ body {
   grid-template-rows: 80px auto 100px;
 }
 
-.home-name {
+header {
   grid-row: 1;
   height: 20px;
   margin-top: 15px;
   margin-left: 30px;
+  width: 90%;
+  position: fixed;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+.page-name {
+  /* grid-row: 1;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 30px; */
   position: absolute;
   font-size: 16px;
   font-weight: 600;
-  width: 90%;
+  /* width: 90%; */
 }
 
 .main-content {
@@ -60,13 +71,13 @@ p {
   color: rgba(0, 0, 0, 0); /* makes just the font sans border transparent */
 }
 
-.nav-items a:hover {
+nav .nav-items a:hover {
   -webkit-text-stroke: 0px;
   color: #DDA15E;
   font-style: italic;
 }
 
-a:link, a:visited {
+.nav-items a:link, .nav-items a:visited {
   text-decoration: none;
   -webkit-text-stroke: 2px #606C38;
   color: rgba(0, 0, 0, 0);
@@ -84,6 +95,8 @@ footer a {
 }
 
 footer a:link, footer a:visited {
+  color: #606C38;
+  opacity: 0.5;
   -webkit-text-stroke: 0.5px #606C38;
-  opacity: 0.8;
+  /* font-weight: 0.5px; */
 }
