@@ -182,7 +182,7 @@ and (max-device-width: 667px) {
     }  
 } */
 
-@media screen and (min-width: 900px) { 
+@media (min-width:900px) { 
     .web-layout {
         height: 100%;
         display: grid;
