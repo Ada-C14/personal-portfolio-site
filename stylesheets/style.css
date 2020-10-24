@@ -1,0 +1,77 @@
+body {
+    font-family: Chalkduster, fantasy;
+}
+
+header, footer {
+    text-align: center;
+    background-color: rebeccapurple;
+    color: papayawhip;
+    border: 4px solid papayawhip;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: dodgerblue;
+    color: black;
+}
+
+.nav .flip-card-front {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: whitesmoke;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.nav .flip-card-back {
+    background-color: dodgerblue;
+    color: black;
+}
+
+img {
+    border: 1px solid #ddd;
+    width: auto;
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: papayawhip;
+}

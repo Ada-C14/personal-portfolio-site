@@ -1,0 +1,16 @@
+header, footer {
+    background-color: rebeccapurple;
+    border: 10px solid papayawhip;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form .flip-card-front {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.form .flip-card-back {
+    background-color: dodgerblue;
+    color: black;
+}
