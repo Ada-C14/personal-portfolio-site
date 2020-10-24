@@ -160,6 +160,29 @@ footer {
  * ADJUSTMENT STYLES FOR SCREEN SIZE
  * ====================================================================================================================*/
 
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+
+    .web-layout {
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: .5fr .25fr auto .25fr;
+        justify-content: center;
+        grid-template-areas:
+          "h h h"
+          "a a a"
+          "m m m"
+          "f f f";
+      }
+
+    .web-layout > * { /* refers to all items */
+        grid-column: 1 / -1; /* set items to exist inside 80px borders */
+        min-width: 0; /* prevent items from centering weirdly */
+    }  
+}
+
 @media screen and (min-width: 900px) { 
     .web-layout {
         height: 100%;
