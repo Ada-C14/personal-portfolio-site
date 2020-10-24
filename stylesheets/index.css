@@ -17,11 +17,13 @@ nav {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    padding: 2rem;
 }
 
 a {
     text-decoration-line: none;
     font-size: 200%;
+    line-height: 2em;
 }
 
 footer {
