@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+main section {
+  /*border-color: #853b4c;*/
+  padding: 50px;
+  border: 6px;
+  border-style: dashed;
+  border-radius: 5px;
+}
+
+main section h3:last-of-type {
+  font-size: 1.25em;
+  font-family: Arial, monospace;
+}
+
+main section a {
+  font-size: 1.5em;
+}

@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  flex-direction: reverse-column;
+  align-items: center;
+}
+
+section {
+  padding-right: 15px;
+}
