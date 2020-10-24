@@ -11,6 +11,7 @@
 footer {
     position: relative;
 }
+
 main p {
     padding: 0.2rem;
     margin: 0.2rem;
@@ -19,6 +20,8 @@ main p {
 
 main ul {
     list-style-type: none;
+    padding: 0.2rem;
+    margin: 0.2rem;
 }
 
 .projects {
@@ -30,13 +33,14 @@ main ul {
 
 .projects-header {
     text-align: left;
+    font-weight: bold;
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
 main li {
-    padding: 0;
-    margin: 0;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 .adagrams {
@@ -81,27 +85,38 @@ main a:hover {
 
 .solarsystem h2::before {
     content: "🪐";
+    padding: 0.2rem;
+    margin: 0.2rem;
  }
  
 .rideshare h2::before {
     content: "🚗";
+    padding: 0.2rem;
+    margin: 0.2rem;
 }
 
 .slackcli h2::before {
     content: "💬";
+    padding: 0.2rem;
+    margin: 0.2rem;
 }
 
 .grocerystore h2::before {
     content: "🍏";
+    padding: 0.2rem;
+    margin: 0.2rem;
 }
 
 .adagrams h2::before {
-    content: "🧩";
+    content: "🔠";
+    padding: 0.2rem;
+    margin: 0.2rem;
 }
 
 .adagrams-img {
     grid-column: 3 / 4;
     grid-row: 1;
+    font-size: 0.5rem;
 }
 
 .solarsystem-img {
@@ -123,4 +138,3 @@ main a:hover {
     grid-column: 3 / 4;
     grid-row: 5;
 }
-
