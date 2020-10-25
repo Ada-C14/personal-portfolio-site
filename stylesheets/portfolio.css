@@ -13,7 +13,7 @@
 
 }
 .words {
-    width:500px;
+    width:600px;
     margin: 0 auto;
     text-align: center;
     background: white;
@@ -21,35 +21,31 @@
     /*border-style: solid;*/
 }
 .words h1 {
+    border-style: solid;
     font-size: 70px;
-    width: 650px;
+    width: 600px;
 
     margin: 30px 0 30 px 40px;
     /*line-height: 25px;*/
     text-align:center;
     background: white;
-    border-style: solid;
+    /*border-style: solid;*/
     /*border-bottom-style: solid;*/
 }
 
 .words h2 {
     font-size: 40px;
-    width: 650px;
+    width: 600px;
     margin: 30px 0 30 px 40px;
-
-    /*margin: 30px 0 30px;*/
-    /*line-height: 25px;*/
     text-align:center;
     background: white;
-
-    /*border-style: solid;*/
 }
 
 .words p {
     font-size: 20px;
-    width: 650px;
+    width: 600px;
     background: white;
     margin: 30px 0 30 px 40px;
     background: white;
-    /*border-style: solid;*/
+    border-style: dotted;
 }
