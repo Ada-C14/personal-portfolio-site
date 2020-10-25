@@ -46,6 +46,10 @@ header {
     font-size: 50px
 }
 
+footer  {
+    margin-top: 1em;
+    font-size: 10px
+}
 
 .items {
     display: flex;
