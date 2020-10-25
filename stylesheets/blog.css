@@ -11,12 +11,16 @@
     border-style: solid;
 }
 
+.recipes h2 {
+    color: #C52233;
+}
+
 .recipes p {
     font-size: 15px;
     /*color: #C52233; <== why is the font not turning red? */
     /*border-top-style: solid;*/
     /*border-right-style: solid;*/
-    border-bottom-style: solid;
+    border-bottom-style: dotted;
     /*border-left-style: solid;*/
 }
 

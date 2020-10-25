@@ -1,9 +1,13 @@
 .container-writing {
     width: 80%;
-    height: 70%;
+    /*height: 70%;*/
     top: 25%;
-    /*left: 120px;*/
+    left: 120px;
+    right: 147px;
+
     position: absolute;
+
+
 }
 .writing {
     width:500px;
