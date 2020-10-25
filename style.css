@@ -71,11 +71,11 @@ a:hover {
 
 .home img{
   display: block;
-  width: 600px;
-  height: 300px;
-  margin-top: 30px;
-  opacity: 1;
-  align-content: center;
+  width: 1000px;
+  height: 400px;
+  margin-top: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
   }
 
 .image-txt-container, .perfil{
