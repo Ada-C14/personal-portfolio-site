@@ -52,7 +52,7 @@ p {
   margin-right: 0.3rem;
 }
 
-.project p, article p {
+.project p, article p, section:not(:first-child) p{
   font-size: 0.8rem;
   line-height: 1.5;
 }
