@@ -1,9 +1,15 @@
+.container-recipes {
+    width: 80%;
+    top: 20%;
+    left: 120px;
+    position: absolute;
+}
 .recipes {
     width:600px;
     margin: 0 auto;
     text-align: center;
     background: white;
-    font-family: sans-serif, "Times New Roman";
+    font-family: "sans-serif", "Times New Roman";
 }
 
 .recipes h1 {
@@ -17,17 +23,19 @@
 
 .recipes p {
     font-size: 15px;
-    /*color: #C52233; <== why is the font not turning red? */
-    /*border-top-style: solid;*/
-    /*border-right-style: solid;*/
     border-bottom-style: dotted;
-    /*border-left-style: solid;*/
+    text-decoration: none;
 }
 
-.container-recipes {
-    width: 80%;
-    /*height: 70%;*/
-    top: 20%;
-    left: 120px;
-    position: absolute;
+.cassava {
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+.dorho {
+
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+ul {
+    list-style-type: none;
 }

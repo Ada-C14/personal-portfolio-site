@@ -1,13 +1,8 @@
 .container-writing {
     width: 80%;
-    /*height: 70%;*/
     top: 25%;
-    left: 120px;
     right: 147px;
-
     position: absolute;
-
-
 }
 .writing {
     width:500px;
@@ -18,7 +13,6 @@
 .writing h1 {
     font-size: 93px;
     width: 650px;
-    margin: 30px 0 30 px 40px;
     text-align:center;
     background: white;
     border-style: solid;
@@ -26,7 +20,6 @@
 .writing p {
     width: 650px;
     font-size: 15px;
-    margin: 30px 0 30 px 40px;
     line-height: 25px;
     text-align:center;
     background: white;
