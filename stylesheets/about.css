@@ -1,0 +1,25 @@
+main {
+    background-color: #a98663;
+    font-family: Futura;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.description  {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.image {float: left;
+    border-radius: 4px;
+    padding: 50px;
+    width: 250px;
+    margin-top: 20px;}

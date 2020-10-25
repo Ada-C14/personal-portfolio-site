@@ -1,52 +1,10 @@
-
-.container {
-    display: flex;
-    flex-direction: column;
-
-}
-body {background-image: url("../images/arles.jpeg");
-    background-color: antiquewhite;
-    background-repeat: repeat;}
-.menu {
-    font-family: Futura;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #8d8f67;
-}
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: darkolivegreen;
-    color: lightgrey;
-}
-
-header {
-    background-color: #fdd8b4;
-    background-size: cover;
-    font-family: Futura;
-    display: block;
-    text-align: center;
-    padding: 20px;
-    font-size: x-large
-}
 .welcome {
+    background-color: #a98663;
     background-size: cover;
     font-family: Arial;
     display: block;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: medium}
 h4 {
     font-family: Futura;
