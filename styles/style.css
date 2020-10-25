@@ -46,14 +46,6 @@ header {
     font-size: 50px
 }
 
-.large-text-container{
-    padding: 0 15px 0 0;
-    margin-top: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: mediumpurple;
-    display: flex;
-}
 
 .items {
     display: flex;
@@ -87,8 +79,3 @@ header {
     text-align: left;
     margin: 4px 4px 1em;
 }
-
-/*.large-text p {
-    margin-top: 3em;
-    font-size: 25px
-}*/
