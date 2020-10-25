@@ -1,20 +1,25 @@
 body {
    background: white;
+    margin-left: 175px;
+    margin-right: 200px;
 }
 
-.about_kayla {
-    font-size: 30px;
-    color: #5f0f40;
-    font-family: sans-serif;
-    text-decoration-line: underline;
+img {
+    border-radius: 80px;
+    border: #0f4c5c;
 }
+
+.developer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .emojis {
     font-size: 2rem;
 }
 
-.about_me {
-    font-size: 1rem;
-}
 
 .contact {
     font-weight: bold;
@@ -30,4 +35,5 @@ aside {
     background-color: #0f4c5c;
     color: white;
     font-family: Helvetica;
+    text-align: center;
 }
