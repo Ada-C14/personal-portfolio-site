@@ -1,6 +1,6 @@
 .main-content {
-  float: left;
-  min-width: 900px;
+  /* float: left; */
+  /* min-width: 900px; */
   height: 28rem;
   display: flex;
 }
@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 900px;
+  width: 65%;
   height: 100%;
 }
 
@@ -20,7 +20,8 @@
 
 .main-content .middle-block .content-right {
   position: relative;
-  width: 575px;
+  width: 50%;
+  /* width: 575px; */
 }
 
 .main-content .middle-block .content-right h1 {
