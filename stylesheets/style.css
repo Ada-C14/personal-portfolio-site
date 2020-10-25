@@ -1,0 +1,128 @@
+/* body */
+body{
+    background-color: #F4F4F8;
+    font-family: 'DM Serif Display', serif;
+    color: #2A2D34;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* header */
+header{
+    background-color: #2A2D34;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+header aside{
+    background-color: #b6b6b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header aside img{
+    max-width: 100%;
+    max-height: 100px;
+}
+
+
+/* footer */
+footer{
+    font-size: small;
+    padding-left: 65px;
+}
+
+/* anchor */
+a{
+    color: #2AB7CA;
+    text-decoration: none;
+}
+a:hover{
+    color: #FE4A49;
+}
+
+a:visited{
+    color: #972b2b;
+}
+
+/* ul */
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* nav */
+nav ul{
+    font-family: 'DM Serif Display', serif;
+    font-size: 54px;
+    height: 100%;
+}
+
+nav a{
+    display: block;
+    color: black;
+}
+
+nav a:hover{
+    color: rgba(42, 45, 52, 0.3);
+}
+
+nav ul li{
+    width: 100%;
+}
+
+nav ul li a:before{
+    content: "☞ ";
+}
+
+/* individual nav elements */
+
+nav ul li:first-child{
+    background-color: #FE4A49;
+    white-space: nowrap;
+}
+
+nav [href="about.html"]:visited{
+    color: #ad0000;
+}
+
+nav [href="about.html"] mark{
+    color:  #7e1717;
+    text-decoration: underline #1766709c;
+    background-color:  #FE4A49;
+}
+
+nav ul li:nth-child(2){
+    background-color: #2AB7CA;
+}
+
+nav [href="portfolio.html"]:visited{
+    color: #064a53;
+}
+
+
+nav ul li:nth-child(3){
+    background-color: #FED766;
+}
+
+nav [href="hobby-blog.html"]:visited{
+    color: #946f00;
+}
+
+nav ul li:last-child{
+    background-color: #2A2D34;
+    color: #F4F4F8;
+}
+
+nav [href="index.html"]:hover{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+nav [href="index.html"]:visited{
+    color:rgba(255, 255, 255, 0.5);
+}
+

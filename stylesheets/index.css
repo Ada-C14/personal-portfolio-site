@@ -1,0 +1,21 @@
+/* header elements */
+
+nav ul li:last-child a:after{
+    content: " ☜";
+}
+
+/* main and semantic elements */
+main{
+    padding: 65px;
+}
+
+h3{
+    font-size: x-large;
+}
+
+mark{
+    color:  #FE4A49;
+    text-decoration: underline #1766709c;
+    background-color: #F4F4F8;
+}
+
