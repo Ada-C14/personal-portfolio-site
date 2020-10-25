@@ -1,0 +1,140 @@
+:root {
+  --main: #686868;
+  --background: white;
+  --grey: #494949;
+  --grey50: #4949497e;
+  --grey10: #4949491a;
+  --links: #8A8A8A;
+  --section: #c5a1ff;
+  --bodyfont: "IBM Plex Sans", san-serif;
+  --headerfont: "Karla", san-serif;
+  --rule: #4949491a;
+}
+
+html {
+  height: 100%;
+}
+
+h1, h2 {
+  font-family: var(--headerfont);
+}
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+p a, .contact-info a {
+  border-bottom: 1px solid currentColor;
+}
+
+p {
+  color: var(--main);
+}
+
+.contact-info {
+  display: flex;
+  font-size: 0.7rem;
+  margin: 0.1rem 0 1rem 0;
+  color: var(--link);
+}
+
+.contact-info > * {
+  margin-right: 0.3rem;
+}
+
+.project p, article p, section:not(:first-child) p{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+/* Grid Layer 1 */
+
+body {
+  background-color: var(--background);
+  color: var(--main);
+  display: grid;
+  min-height: 100%;
+  grid-template-columns: 1fr [main-start] minmax(0, 30rem) [main-end] 1fr;
+  grid-template-rows: 5rem auto 1rem;
+}
+
+
+body > * {
+  grid-column: main;
+  margin: 2rem 0;
+}
+
+.emoji {
+  font-style: normal;
+}
+
+/* separating the nav links */
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.9rem;
+  
+}
+
+nav a {
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+/* Grid Layer 2 */
+
+main {
+  grid-column: main;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+section, article{
+  grid-column: main;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  transition: 0.1s;
+}
+
+section:not(:first-child) p a {
+  transition: 0.1s;
+  color: var(--link);
+}
+
+footer {
+  font-size: 0.5rem;
+  align-self: flex-end;
+}
+
+a.current-page {
+  border-bottom: 1px solid currentColor;
+}
+
+
+nav a:not(.current-page):hover {
+  color: var(--section);
+}
+
+@media (max-width: 600px) {
+  .design .project {
+    display: block;
+  }
+
+  body {
+    grid-template-columns: 1fr [main-start] 90% [main-end] 1fr;
+  }
+}
+

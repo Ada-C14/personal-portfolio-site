@@ -1,0 +1,27 @@
+article:not(:first-child) {
+  box-shadow: 0 -1px 0 0px var(--main); 
+}
+
+article a:hover {
+  color: var(--section);
+}
+
+time {
+  font-size: 0.6rem;
+  color: var(--link);
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+article p {
+  margin: 0.75rem 0;
+}
+
+img {
+  width: 100%;
+}
+

@@ -1,0 +1,16 @@
+/* from scrimba */
+
+:root { 
+	font: 20px/1.4 "IBM Plex Sans", sans-serif; 
+	font-weight: 300;
+} /* or html */
+
+body,
+body * {
+	margin:          unset;
+	box-sizing:      unset;
+	padding:         unset;
+	font-size:       unset;
+	color:           unset;
+	text-decoration: unset;
+}

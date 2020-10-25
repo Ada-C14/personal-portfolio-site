@@ -1,0 +1,64 @@
+
+
+section:not(:first-child) {
+  border-top: solid 0.4rem var(--rule);
+}
+
+section a:hover {
+  color: var(--section);
+}
+
+
+ 
+h2 a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 0.6rem;
+  color: var(--section);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+
+}
+
+section {
+  padding: 1rem 0 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.code-link {
+  font-size: 0.7rem;
+}
+
+/* add spacing between projects */
+.project:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.hover-images {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  
+}
+
+.logo {
+  opacity: 0;
+  transition: 0.1s;
+  transition-timing-function: ease;
+}
+
+
+
+.hover-images * {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.hover-images:hover .logo {
+  opacity: 1;
+}

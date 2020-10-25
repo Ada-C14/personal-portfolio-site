@@ -1,0 +1,25 @@
+section:not(:first-child) {
+  border-top: solid 0.4rem var(--rule);
+}
+
+h3 {
+  font-family: var(--headerfont);
+}
+
+img {
+  width: 100%;
+}
+
+
+.tilray-projects p {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.animations {
+  display:grid;
+  grid-template: repeat(2, 1fr) / repeat(3,1fr);
+}
