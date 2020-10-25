@@ -37,6 +37,7 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
 a:hover {
     color: black;
 }
@@ -52,15 +53,6 @@ footer  {
     font-size: 10px
 }
 
-.items {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    list-style: none;
-}
-
 .container{
     padding: 0 15px 0 0;
     margin-top: 100px;
@@ -72,13 +64,22 @@ footer  {
     text-align: center;
 }
 
+.items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+}
+
 .items li {
     background-color: grey;
     width: 40%;
     margin: 4px;
     border-style: solid;
-
 }
+
 .items li p{
     width:98%;
     text-align: left;
