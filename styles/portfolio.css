@@ -1,3 +1,12 @@
+body {
+  background-image: url("../images/mountain_road_edit.png");
+  /* background-color: rgba(255,255,255,0.6); */
+  /* background-blend-mode: overlay; */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 .main-content-adj {
   grid-row: 2;
   width: 100%;
@@ -6,33 +15,27 @@
   justify-content: center;
   align-items: center;
   grid-template-rows: 14rem 14rem;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 30% 30%;
 }
 
 .main-content-adj #proj1 {
   grid-row: 1;
-  grid-column: 1;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 100%;
-  width: 100%; */
+  grid-column: 2;
 }
 
 .main-content-adj #proj2 {
   grid-row: 1;
-  grid-column: 2;
+  grid-column: 3;
 }
 
 .main-content-adj #proj3 {
   grid-row: 2;
-  grid-column: 1;
+  grid-column: 2;
 }
 
 .main-content-adj #proj4 {
   grid-row: 2;
-  grid-column: 2;
+  grid-column: 3;
 }
 
 .main-content-adj .proj {
@@ -50,7 +53,7 @@
   top: 50%;
   left: 50%;
   height: 100%;
-  width: 50%;
+  width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #FEFAE0;
@@ -78,6 +81,30 @@ img {
   opacity: 0;
 }
 
+#proj2:hover .hover-card {
+  opacity: 1;
+}
+
+#proj2:hover img {
+  opacity: 0;
+}
+
+#proj3:hover .hover-card {
+  opacity: 1;
+}
+
+#proj3:hover img {
+  opacity: 0;
+}
+
+#proj4:hover .hover-card {
+  opacity: 1;
+}
+
+#proj4:hover img {
+  opacity: 0;
+}
+
 .proj-title {
   font-size: 16px;
   font-weight: 600;
@@ -93,6 +120,7 @@ ul {
 
 li {
   float: left;
+  margin-left: 10px;
   margin-right: 10px;
   font-size: 12px;
   color: #BC6C25;
@@ -109,3 +137,12 @@ li {
   color: #DDA15E;
   font-style: italic;
 }
+
+/* .side-img {
+  grid-row: 1 / span 2;
+  grid-column: 1;
+  justify-self: center;
+  height: 100%;
+  width: auto;
+  opacity: 85%;
+} */
