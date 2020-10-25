@@ -28,7 +28,6 @@ body {
     background-color: mediumpurple;
 }
 
-
 .nav-link {
     padding: 0 15px 0 0;
     margin: 10px;
@@ -89,7 +88,7 @@ header {
     margin: 4px 4px 1em;
 }
 
-.large-text p {
+/*.large-text p {
     margin-top: 3em;
     font-size: 25px
-}
+}*/
