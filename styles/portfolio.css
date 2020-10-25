@@ -67,7 +67,7 @@ img {
   height: 90%;
   width: auto;
   /* transition: .5s ease; */
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
   min-width: 0;
 }
 

@@ -8,3 +8,77 @@
   grid-template-rows: 28rem;
   grid-template-columns: repeat(3, 1fr)
 }
+
+.main-content-adj .post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.main-content-adj .post .figure {
+  position: relative;
+  height: 85%;
+  width: auto;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  position: relative;
+}
+
+.post-desc {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(235, 242, 227, 0.8);
+  /* background-color: #EBF2E3; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* img:hover, .post-desc:hover~img {
+  opacity: 70%;
+} */
+
+img:hover~.post-desc, .post-desc:hover {
+  opacity: 1;
+}
+
+.main-content-adj .post .figure .post-desc a.tag {
+  font-size: 12px;
+  margin-top: 24px;
+  margin-left: 5%;
+  color: #606C38;
+  font-weight: 600;
+}
+
+.main-content-adj .post .figure .post-desc a.date {
+  font-size: 10px;
+  margin-left: 5%;
+  margin-top: 2px;
+  color: #283618;
+  /* font-weight: 500; */
+}
+
+.main-content-adj .post .figure .post-desc a.title {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  color: #283618;
+  font-weight: 600;
+}
+
+.main-content-adj .post .figure .post-desc a.title:visited, .main-content-adj .post .figure .post-desc a.title:link {
+  text-decoration: none;
+}
+
+.main-content-adj .post .figure .post-desc a.title:hover {
+  color: #BC6C25;
+  font-style: italic;
+}
