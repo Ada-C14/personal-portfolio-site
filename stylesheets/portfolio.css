@@ -3,15 +3,23 @@
     text-decoration: none;
 }
 
+
+.container-words {
+    width: 80%;
+    height: 70%;
+    top: 15%;
+    /*left: 120px;*/
+    position: absolute;
+
+}
 .words {
     width:500px;
     margin: 0 auto;
     text-align: center;
     background: white;
     margin: 30px 0 30 px 40px;
-    border-style: solid;
+    /*border-style: solid;*/
 }
-
 .words h1 {
     font-size: 70px;
     width: 650px;
@@ -20,8 +28,8 @@
     /*line-height: 25px;*/
     text-align:center;
     background: white;
-    /*border-style: solid;*/
-    border-bottom-style: solid;
+    border-style: solid;
+    /*border-bottom-style: solid;*/
 }
 
 .words h2 {
