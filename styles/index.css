@@ -1,0 +1,81 @@
+header {
+    background-color: #e8c4b5;
+    grid-area: header;
+    height: auto;
+    text-align: center;
+    color: grey;
+
+}
+header h1 {
+    font-size: 60px;
+    color: whitesmoke;
+    border: solid whitesmoke ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+main img {
+   max-width: 25%;
+    height: auto;
+    align-self: center;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.copyrighted-name {
+    margin-right: auto;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+* {
+    font-family: 'Galano Classic', sans-serif;;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "footer footer footer"
+}
+
+nav {
+    grid-area: nav;
+    border-bottom: black solid 15px;
+}
+
+header {
+    background-color: #e8c4b5;
+    grid-area: header;
+    padding-top: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav ul a:hover {
+    color: darkgrey;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    background-color: #e8c4b5;
+    grid-area: footer;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
