@@ -36,10 +36,6 @@ img {
   font-size: 0.7rem;
 }
 
-/* .design .project {
-  display: flex;
-} */
-
 /* add spacing between projects */
 .project:not(:last-child) {
   margin-bottom: 1.5rem;

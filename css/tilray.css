@@ -4,9 +4,7 @@ section:not(:first-child) {
 
 h3 {
   font-family: var(--headerfont);
-
 }
-
 
 img {
   width: 100%;

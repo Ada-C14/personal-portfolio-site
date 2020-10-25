@@ -98,7 +98,6 @@ main {
   grid-column: main;
   display: flex;
   flex-direction: column;
-  /* padding: 0.5rem 0; */
 }
 
 
@@ -117,12 +116,10 @@ section:not(:first-child) p a {
 
 footer {
   font-size: 0.5rem;
-  /* padding-bottom: 2rem; */
   align-self: flex-end;
 }
 
 a.current-page {
-  /* text-decoration: underline; */
   border-bottom: 1px solid currentColor;
 }
 
