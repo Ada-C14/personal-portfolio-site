@@ -1,0 +1,53 @@
+header h4 {
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+    color: #3A3A3A;
+    position: absolute;
+    letter-spacing: .25em;
+    top: 1.5em;
+}
+
+body {
+    margin-bottom: 5em;
+}
+
+main {
+    text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 2.5%;
+}
+
+main h2 {
+    text-align: left;
+    font-family: "Amatic SC", sans-serf;
+    font-size: 2.5em;
+}
+
+main article {
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 1.5em;
+}
+
+main p {
+    padding-bottom: .5em;
+}
+
+main ul {
+    padding-bottom: 1.5em;
+}
+
+main article a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: .75em;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #FEF7E3;
+    border: 2px solid white;
+}
