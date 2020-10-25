@@ -9,6 +9,8 @@ header {
 
 #bar {
     flex: 0 1 auto;
+    max-width:100%;
+    height:auto;
 }
 
 nav {
