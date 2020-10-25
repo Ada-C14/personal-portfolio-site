@@ -5,10 +5,12 @@
     background: white;
     font-family: sans-serif, "Times New Roman";
 }
+
 .recipes h1 {
     font-size: 73px;
     border-style: solid;
 }
+
 .recipes p {
     font-size: 15px;
     /*color: #C52233; <== why is the font not turning red? */
