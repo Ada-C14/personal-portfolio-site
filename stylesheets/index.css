@@ -1,0 +1,14 @@
+.welcome {
+    background-color: #a98663;
+    background-size: cover;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: medium}
+h4 {
+    font-family: Futura;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: large;}

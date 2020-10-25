@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {background-image: url("../images/arles.jpeg");
+    background-color: antiquewhite;
+    background-repeat: repeat;
+    font-family: Futura}
+
+.menu {
+    font-family: Futura;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8d8f67;
+}
+.menu li {
+    float: left;
+}
+
+.menu a:link, a:visited {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: darkolivegreen;
+    color: lightgrey;
+}
+header {
+    background-color: #fdd8b4;
+    background-size: cover;
+    font-family: Futura;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: x-large
+}
+
+.button a:link {
+    background-color: #73a1bc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.button a:hover {
+    background-color: #8d8f67;
+    color: lightgrey;
+}
+
+main {
+    background-color: #a98663;
+    display: block;
+    text-align: left;
+    padding: 20px;
+}
+
+.projects a:link {
+    background-color: #73a1bc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.projects a:hover {
+    background-color: #73a1bc;
+    color: antiquewhite;
+}
+
+
+
+
+
+
