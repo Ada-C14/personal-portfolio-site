@@ -1,0 +1,18 @@
+div.text-body {
+    margin-top: 4.5em;
+}
+
+section.bottom-image {
+    background-image: url("../images/blankfairywings.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-size: 20em;
+    min-height: 20em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+div.divider:first-of-type {
+    transform: scaleY(-1);
+}

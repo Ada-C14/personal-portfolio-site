@@ -1,0 +1,11 @@
+div.text-body {
+    margin-top: 5em;
+}
+
+section.bottom-image {
+    background-image: url("../images/bottomborder.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 700px;
+}

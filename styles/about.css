@@ -1,0 +1,16 @@
+div.bottom-image {
+    margin-top: 0px;
+    text-align: center;
+}
+
+div.bottom-image img {
+    max-width: 50%;
+}
+
+div.divider:first-of-type {
+    transform: scaleY(-1);
+}
+
+section.text {
+    margin-top: 1em;
+}

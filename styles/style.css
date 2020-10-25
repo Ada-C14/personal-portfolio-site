@@ -1,0 +1,212 @@
+
+/* ====================================================================================================================
+ * TODO
+ * - add mobile capability to delete 80px borders when necessary - DONE
+ * - add flex to nav - DONE
+ * - read about accessibility again for naming items correctly
+ * - add google fonts - DONE
+ * - figure out how to correctly nest styles so code is more dry
+ * - fix html for about and portfolio to make index updates commit 23
+ * ====================================================================================================================*/
+
+ /* ====================================================================================================================
+ * BASIC STYLES
+ * ====================================================================================================================*/
+
+body {
+    background-color: darkslategrey;
+}
+
+a:link, a:visited {
+    color: darkslategray;
+}
+
+a:active, a:hover {
+    color: darkred;
+}
+
+ /* ====================================================================================================================
+ * WEB-LAYOUT GRID STYLES
+ * ====================================================================================================================*/
+
+.web-layout {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: .5fr .25fr auto .25fr;
+  justify-content: center;
+  grid-template-areas:
+    "h h h"
+    "a a a"
+    "m m m"
+    "f f f";
+}
+
+.web-layout > * { /* refers to all items */
+    grid-column: 1 / -1; /* set items to exist inside 80px borders */
+    min-width: 0; /* prevent items from centering weirdly */
+}
+
+/* Left/Right Border Styles */
+
+section.left-border {
+    grid-area: r;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
+
+section.right-border {
+    grid-area: l;
+    display: flex;
+    align-items: flex-end;
+} 
+
+/* section.right-border img, section.left-border img {
+    visibility: hidden;
+} */
+  
+
+/* Header Styles */
+
+header {
+  grid-area: h;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: 'Press Start 2P', sans-serif;
+  border-bottom: 1em solid black;
+  margin-top: -8px;
+}
+
+header img {
+    max-height: 100%;
+}
+
+/* Navigation Styles */
+
+nav {
+  grid-area: a;
+  background-color: darkgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+}
+
+nav ul, li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 15px; 
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 1.15em;
+    font-family:  'Press Start 2P', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Main Content Styles */
+
+main {
+    grid-area: m;
+    background-color: white;
+    min-height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5vh auto 5vh;
+    grid-template-rows: auto;
+}
+
+section.text img {
+    max-width: 100%;
+}
+
+section.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+
+section.text h3 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1em;
+}
+
+div.divider {
+    text-align: center;
+}
+
+div.divider img {
+    max-width: 50%;
+}
+
+/* Footer Styles */
+
+footer {
+  grid-area: f;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid black;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+ /* ====================================================================================================================
+ * ADJUSTMENT STYLES FOR SCREEN SIZE
+ * ====================================================================================================================*/
+
+/* @media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+
+    .web-layout {
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: .5fr .25fr auto .25fr;
+        justify-content: center;
+        grid-template-areas:
+          "h h h"
+          "a a a"
+          "m m m"
+          "f f f";
+      }
+
+      .web-layout > * { 
+        grid-column: 1 / -1; 
+        min-width: 0;
+    }  
+} */
+
+@media (min-width:900px) { 
+    .web-layout {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 15vh 3fr 15vh;
+        grid-template-rows: .5fr .25fr auto .15fr;
+        grid-template-areas:
+          "r h l"
+          "r a l"
+          "r m l"
+          "r f l";
+    }
+    
+    .web-layout > * { 
+        grid-column: 2 / -2; 
+        min-width: 0; 
+    }
+
+    /* section.left-border img, section.right-border img {
+        max-width: 70%;
+        visibility: visible;
+    }
+
+    section.right-border img {
+        transform: scaleX(-1);
+    } */
+}

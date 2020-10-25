@@ -1,0 +1,21 @@
+div.text-body {
+    margin-top: 1em;
+}
+
+/* section.bottom-image {
+    background-image: url("../images/ghostpipe.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-size: 25em;
+    min-height: 400px;
+    padding: 1em;
+} */
+
+div.divider:first-of-type {
+    transform: scaleY(-1);
+}
+
+div.bottom-image img {
+    max-width: 50%;
+}
