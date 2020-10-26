@@ -1,0 +1,21 @@
+
+
+.content {
+    text-align: center;
+    font-size: 34px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+img {
+    width: 370px;
+    height: 370px;
+    text-align: center;
+}

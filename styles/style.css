@@ -1,0 +1,23 @@
+
+body {
+    background: #96ceb4;
+}
+
+.header {
+    text-align: center;
+    border: 5px outset blue;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    border-bottom: 6px solid blue;
+}
