@@ -1,0 +1,64 @@
+html, body {
+    background-color: #f5dbc0;
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: #e35343;
+    font-size: 2em;
+    padding: 10px 20px;
+  }
+
+  p {
+    color: #2274a0;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 20px;
+  }
+
+  .nav {
+    background-color: #88d8b0;
+  }
+  
+  .nav :nth-child(2) {
+      padding: 0 40px;
+  }
+  
+  .footer {
+      background-color: #88d8b0;
+  }
+  
+  .container > div {
+      color: #ffeead;
+      display: flex;
+      align-items: center;
+      padding: 10px 10px;
+  }
+  
+  .container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; 
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+  
