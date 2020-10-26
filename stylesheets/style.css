@@ -78,7 +78,7 @@ main{
     margin: 4px 4px 1em;
 }
 
-.large-text p{
+.large-text {
     margin-top: 3em;
     font-size: 25px
 }
