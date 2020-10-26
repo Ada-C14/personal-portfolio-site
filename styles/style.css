@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+* ul {
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.header {
+  grid-column: outer;
+  color: black;
+  font-weight: normal;
+  font-size: 50px;
+  }
+
+a {
+  color: black;
+}
+
+.menu a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 25px;
+}
+
+.menu a:hover {
+  background: #b6e2f5;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container {
+  height: 100%; 
+  display: grid;
+  grid-template-columns: [outer-start] 3fr [center-start] 2fr [center-end outer-end];
+  grid-template-rows: 2fr 1fr 10fr 2fr;
+}
+
+.header {
+  justify-content: flex-start;
+}
+
+.menu {
+  background-color: #f5c9b6;
+  justify-content: center;
+  grid-column: outer;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.copy {
+  justify-content: flex-start;
+  background-color: #b6c1f5;
+}
+
+.contact {
+  justify-content: flex-end;
+  background-color: #b6c1f5;
+}
+
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-end;
+  list-style: none;
+}
