@@ -69,8 +69,8 @@ header > p {
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 38%; }
+    from { max-width: 0 }
+    to { max-width: 100%; }
 }
 
 footer {

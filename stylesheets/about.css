@@ -48,6 +48,7 @@ header {
 
 
 header > h1 {
+    width: auto;
     font-family: Andale Mono, monospace;
     overflow: hidden;
     display: inline-block;
@@ -58,10 +59,14 @@ header > h1 {
     font-weight: 300;
     letter-spacing: .15em;
     animation:
-            typing 3s steps(40,end),
+            typing 3s steps(30,end),
             blink-caret .75s step-end infinite;
 }
 
+@keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 38%; }
+}
 /* alternative header styling*/
 
 /*header > h1 {*/
