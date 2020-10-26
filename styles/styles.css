@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.container > li {
+    flex: 1;
+}
+
+a {
+    color: peru;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Andale Mono", monospace;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    min-height: 100vh;
+}
+
+.home {
+    background-image: url(../images/pink_desk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.intro {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px;
+    align-items: center;
+    margin: 100px;
+}
+
+header h3 {
+    font-size: 20px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+header h1 {
+    grid-column: 1 / 2;
+}
+
+.project > li {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    align-content: space-between;
+    grid-gap: 50px;
+}
+
+/*section>a {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border: blue 2px solid;*/
+/*}*/
+
+a:hover {
+    color: brown;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "p t"
+    "p e"
+    "l j";
+    justify-items: center;
+}
+
+.photo {
+    grid-area: p;
+}
+
+.experience {
+    grid-area: e;
+}
+
+.text {
+    grid-area: t;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about, .portfolio {
+    background-color: mistyrose;
+}
+
+.languages li {
+    text-decoration: underline;
+}
+
+.logo_1 {
+    height: 100px;
+    width: 100px;
+    grid-area: l;
+}
+
+.logo_2 {
+    height: 75px;
+    width: 75px;
+    grid-area: j;
+}
+
+ul > h3 {
+    color: peru;
+}
+
+
+
