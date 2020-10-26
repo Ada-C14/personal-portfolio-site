@@ -88,6 +88,10 @@ header > h2 {
     text-align: center;
 }
 
+img {
+    border-radius: 8px;
+}
+
 footer {
     text-align: right;
     color: white;

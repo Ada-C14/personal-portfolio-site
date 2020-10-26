@@ -1,0 +1,70 @@
+html {
+    background-image:url(
+    http://s1.bwallpapers.com/wallpapers/2014/01/22/black-desktop-backgrounds_044725912.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    margin-right: 2rem;
+    float: left;
+
+}
+
+.navbar a:link {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2.5rem;
+    color: purple;
+}
+
+.navbar a:visited {
+    color: yellow;
+}
+
+.navbar a:hover {
+    background: hotpink;
+}
+
+/*remove margins and padding */
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.projects-section {
+    color: white;
+
+}
+
+.portfolio  {
+    font-family: Andale Mono, monospace;
+    justify-content: center;
+    font-weight: 250;
+    text-align: left;
+    font-size: 1rem;
+    color: white;
+}
+
+img {
+    border-radius: 8px;
+}
+
+title{
+    color:white;
+}
+h3 {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height : 60px;
+    display: inline-block;
+}
