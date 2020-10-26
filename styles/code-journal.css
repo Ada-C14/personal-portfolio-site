@@ -3,16 +3,6 @@ body {
     color: black;
 }
 
-.header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-}
-
-.emoji {
-    font-size: 400%;
-}
-
 article {
     border: .15em dashed black;
     text-align: left;

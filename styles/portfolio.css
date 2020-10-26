@@ -1,13 +1,3 @@
-.header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-}
-
-.emoji {
-    font-size: 400%;
-}
-
 ul {
     list-style-type: none;
     display: inline-block;
@@ -16,10 +6,6 @@ ul {
 
 ul li {
     padding: .1em;
-}
-
-a:hover {
-    color: yellow;
 }
 
 #slack-logo {

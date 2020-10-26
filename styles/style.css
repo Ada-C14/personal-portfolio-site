@@ -9,7 +9,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-gap: 2%;
+    grid-gap: 1%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 15% auto 5%;
     grid-template-areas:
@@ -18,7 +18,7 @@ body {
     ". f f .";
 }
 
-.header {
+header {
     grid-area: h;
     align-self: center;
 }
@@ -28,7 +28,7 @@ body {
     align-self: center;
 }
 
-.footer {
+footer {
     grid-area: f;
     align-self: flex-end;
     font-size: 70%;
@@ -40,4 +40,18 @@ a {
 
 a:link {
     text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.emoji-nav {
+    font-size: 400%;
 }
