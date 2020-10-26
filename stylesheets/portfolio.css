@@ -51,11 +51,9 @@ ul {
 
 img {
     border-radius: 8px;
+    vertical-align :middle;
 }
 
-title{
-    color:white;
-}
 h3 {
     text-decoration: underline;
 }
