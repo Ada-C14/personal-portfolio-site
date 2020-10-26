@@ -77,3 +77,8 @@ main{
     text-align: left;
     margin: 4px 4px 1em;
 }
+
+.large-text p{
+    margin-top: 3em;
+    font-size: 25px
+}
