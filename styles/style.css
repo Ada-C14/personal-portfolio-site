@@ -12,8 +12,7 @@ body {
     height: 100%;
     display: grid;
     grid-gap: 3px;
-    grid-template-columns: ;
-    grid-template-rows: 20% 70% 10%;
+    grid-template-rows: 10% 80% 10%;
 }
 
 .menu {
@@ -31,7 +30,7 @@ body {
     display: flex;
     color: #a5a58d;
     justify-content: flex-end;
-    padding: 14px 16 px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
