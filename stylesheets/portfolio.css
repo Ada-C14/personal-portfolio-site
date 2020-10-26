@@ -1,0 +1,140 @@
+.projects h2 {
+    padding: 0.2rem;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+}
+
+.rideshare-img a, .solarsystem-img a, .grocery-img a {
+    font-size: 0.5rem;
+}
+
+footer {
+    position: relative;
+}
+
+main p {
+    padding: 0.2rem;
+    margin: 0.2rem;
+    font-size: 1rem;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.projects-header {
+    text-align: left;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+main li {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.adagrams {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.solarsystem {
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 2; 
+}
+
+.grocerystore {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+.rideshare {
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 4;
+}
+
+.slackcli {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
+main a {
+    color: #64ffda;
+    text-decoration: none;
+    margin: 0.2em;
+}
+
+main a:hover {
+    color: white;
+}
+
+.solarsystem h2::before {
+    content: "🪐";
+    padding: 0.2rem;
+    margin: 0.2rem;
+ }
+ 
+.rideshare h2::before {
+    content: "🚗";
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.slackcli h2::before {
+    content: "💬";
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.grocerystore h2::before {
+    content: "🍏";
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.adagrams h2::before {
+    content: "🔠";
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.adagrams-img {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    font-size: 0.5rem;
+}
+
+.solarsystem-img {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.grocery-img {
+    grid-column: 3 / 4;
+    grid-row: 3;
+}
+
+.rideshare-img {
+    grid-column: 1 / 2;
+    grid-row: 4;
+}
+
+.slack-img {
+    grid-column: 3 / 4;
+    grid-row: 5;
+}
