@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif
+  }
+  
+  /* header */
+  header {
+    background-color: #F5CEC7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  /* social media buttons */
+  .social {
+    background-color: #F5CEC7;
+    width:42%;
+    float: right;
+  }
+
+  .menu {
+    background-color: #F5CEC7;
+    width:55%;
+    margin-right:2%;
+    float: left;
+  }
+
+  .clearfix {
+    clear:both
+  }
+
+  /* create rainbow name block text */
+  h1.name {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.20rem;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 4px 4px #f09b93,
+                 8px 8px #ebd6d7,
+                 12px 12px #f9ebd9,
+                 16px 16px #e9dd8a,
+                 20px 20px #439093,
+                 24px 24px #f09b93,
+                 28px 28px #ebd6d7,
+                 32px 32px #f9ebd9,
+                 36px 36px #e9dd8a;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #439093;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  
+  }
+
+  h2.title {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h4 {
+    text-align: center;
+    color: #439093;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  
+  }
+  /* set background color of site */
+  body {
+    background-color: #F5CEC7;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f9ebd9;
+    padding: 3px;
+    padding-block-end: 10px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #F5CEC7;
+    border-width: 10px;
+  }
+  /* style tech stack box */
+  article.tech_stack {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* style tech stack box */
+  article.blog_list {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* style blog posts */
+  article.blog_post {
+    background-color: white;
+    text-align: center;
+  }
+  /* footer */
+  footer {
+    background-color: #F5CEC7;
+    padding: 5px;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
