@@ -59,7 +59,7 @@ header h1 {
     grid-column: 1 / 2;
 }
 
-.project > a {
+.project > li {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
