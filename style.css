@@ -1,0 +1,90 @@
+* {
+  /* background-color: rgb(109, 208, 238); */
+  scroll-margin-block: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(182, 64, 1);
+  text-shadow: rgb(122, 1, 1) 0px 0px 10px;
+}
+
+body.home {
+  background-image:url('images/smile.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  /* text-align: right;
+  background-position: left; */
+  padding: 0em;
+  background-color: rgba(187, 119, 17, 0.493);
+}
+
+header nav ul li {
+  line-height: auto
+}
+
+header h1 {
+  /* background-color: rgba(202, 185, 32, 0.315); */
+  text-align: center;
+  font-size: 30pt;
+  font-stretch: extra-expanded;
+}
+
+ul li { 
+  list-style-type: none;
+  text-align: center;
+}
+
+img.resize {
+  max-width: 45%;
+  max-height: auto;
+}
+
+#row-images li img > * {
+  float: center;
+}
+
+footer nav ul li {
+  line-height: auto
+}
+
+main p, h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px
+  /* float: left; */
+  /* width: 50%; */
+}
+
+/* main * {
+  background-color: rgba(206, 131, 19, 0.315);
+} */
+
+#project-list li {
+  text-align: center;
+  list-style-type: unset;
+}
+
+#cs-list li {
+  text-align: center;
+  list-style-type: unset;
+}
+
+/* Try and impliment flexbox or grid here*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
