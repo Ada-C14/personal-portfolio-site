@@ -1,0 +1,131 @@
+header {
+    min-width: 700px;
+    background-color: rgb(216, 211, 211);
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  img:hover {
+    opacity: 70%;
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: verdana;
+      border: white 2px solid;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(8, 1, 1, 0.966);
+    padding: 5px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: rgb(126, 59, 4);
+  }
+  
+  .images {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .image {
+    margin: 10px;
+    text-align: center;
+    min-width: 210px;
+    box-shadow: 0 4px 8px 0 rgba(40, 78, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .subject h2 {
+    margin: 60px 0px 0px 0px;
+    padding: 7px;
+    background-image: radial-gradient(rgb(163, 155, 155), white 70%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    min-width: 700px;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    border: white solid 3px;
+  }
+  .about {
+    max-width: 600px;
+    padding: 1px 10px;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .about h2 {
+    text-decoration: underline;
+  }
+  
+  .about:nth-of-type(3) {
+    border: rgb(126, 59, 4) solid 2px;
+    align-self: flex-end;
+  }
+  
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    border: white solid 3px;
+  }
+  
+  .dev {
+    max-width: 600px;
+    padding: 1px 10px;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .dev h2 {
+    text-decoration: underline;
+  }
+
+  body.footer {
+    align-self: flex-start;
+  }
+  
+  footer {
+    /* background-color: grey; */
+    border: rgb(243, 113, 6) 2px solid;
+    flex-shrink: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    /* padding-top: 10px; */
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 40px;
+  }
+  
+  footer img {
+    max-width: 40px;
+    padding: 0px 5px;
+  }
