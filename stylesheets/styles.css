@@ -80,7 +80,7 @@ a:link {
     align-items: center;
     margin-top: 25px;
     margin-bottom: 75px;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 
@@ -278,18 +278,5 @@ footer p {
     font-size: 50px;
     opacity: 0.5;
 }
-
-#snail-info {
-    margin-right: 90px;
-}
-
-#call-info {
-    margin-right: 90px;
-}
-
-#email-info {
-    margin-right: 90px;
-}
-
 
 
