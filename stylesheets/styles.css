@@ -4,6 +4,17 @@
     background-color: #ffe9c4;
 }
 
+.comp-headers {
+        font-size: 30px;
+        color: #c0c936;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 45px;
+        letter-spacing: 2px;
+        opacity: 0.5;
+        padding-bottom: 15px;
+}
+
 #home_image {
     display: flex;
     width: 700px;
@@ -52,6 +63,26 @@ a:link {
 #container {
     position: relative;
 }
+
+#contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    justify-content: flex-end;
+}
+
 
 
 #kitty_cover {
@@ -111,7 +142,7 @@ h2 {
     padding-right: 15px;
 }
 
-#benjamin_quote {
+.quote {
     color: #696e1b;
 }
 
@@ -212,5 +243,53 @@ footer p {
 
 .article-wrap {
     display: flex;
+}
+
+.code-img {
+    width: 500px;
 
 }
+
+#code-examples div img {
+    width: 100%;
+    padding: 25px;
+}
+
+#code-examples {
+    display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+}
+
+#coursework {
+
+    padding-left: 150px;
+    line-height: 2.5;
+}
+
+#ada-quote {
+    margin: 60px;
+}
+
+.contact {
+    color: #3480eb;
+    font-size: 50px;
+    opacity: 0.5;
+}
+
+#snail-info {
+    margin-right: 90px;
+}
+
+#call-info {
+    margin-right: 90px;
+}
+
+#email-info {
+    margin-right: 90px;
+}
+
+
+
