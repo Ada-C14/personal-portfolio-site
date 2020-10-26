@@ -75,15 +75,17 @@ h1 {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
     padding: 10px 0;
+    color: mistyrose;
 }
 
 h3 {
     font-size: 20px;
     text-align: center;
     padding: 10px 0;
+    color:black;
 }
 
 .welcome {
@@ -121,7 +123,7 @@ h3 {
 .travel {
     display: grid;
     grid-template: 1fr / 1fr;
-    width: 700px;
+    width: 900px;
     border: 1px;
     padding: 0 0;
     margin: 0 auto;
@@ -130,24 +132,18 @@ h3 {
 }
 
 .travel img {
-    width: auto;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container{
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40px 200px 40px;
-}
 
 .portfolio {
     display: grid;
     grid-template: 1fr / 1fr;
-    width: 700px;
+    width: 800px;
     border: 1px;
     padding: 0 0;
     margin: 0 auto;
@@ -155,3 +151,24 @@ h3 {
     background-color : rosybrown;
 }
 
+
+ * {
+     box-sizing: border-box;
+ }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Dashed border */
+hr.dashed {
+    border-top: 3px dashed #bbb;
