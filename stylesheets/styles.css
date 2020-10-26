@@ -120,8 +120,8 @@ a {
 }
 
 a:hover {
-    color: #ff8e0d;
-    text-shadow: 0 0 3px #ff8e0d;
+    color: #3480eb;
+    text-shadow: 0 0 3px #3480eb;
     color: transparent;
 }
 
@@ -179,7 +179,7 @@ footer p {
 }
 
 .solo-footer p {
-    margin-top: 0px;
+    margin-top: 25px;
 }
 
 .footer-nav li {
