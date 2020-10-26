@@ -127,5 +127,9 @@ img {
     grid-area: j;
 }
 
+ul > h3 {
+    color: peru;
+}
+
 
 
