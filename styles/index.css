@@ -20,10 +20,6 @@
     25% { border-color: lime; }
 }
 
-#audio:link {
-    text-decoration: none;
-}
-
 #audio:hover {
     font-size: 150%;
 }
