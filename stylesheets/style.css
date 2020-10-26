@@ -145,3 +145,23 @@ blockquote {
     grid-column-end: 3;
     grid-row-start: 2;
 }
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee4f33e7;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.blog-content {
+    background-color: #ee4f338f;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
