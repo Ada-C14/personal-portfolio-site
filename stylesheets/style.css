@@ -1,0 +1,154 @@
+* { outline: 1px dotted red }
+
+/* TODO make all colors web safe */
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 1.8vw;
+  color: #20C20E;
+  background-color: #000;
+  height: 100%;
+  margin: 0;
+}
+
+/* Grids and Flexboxen */
+.container {
+  display: grid;
+  height: 90%;
+  max-width: 95vw;
+  margin: 0 auto !important;
+	float: none !important;
+  grid-template-columns: 1.5fr 10fr 1fr;
+  grid-template-rows: 1fr auto 80px;
+  grid-gap: 3px;
+  grid-template-areas:
+  "nav header sidebar"
+  "nav content sidebar"
+  "nav footer sidebar";
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+  padding: 10px;
+  background-color: inherit;
+  background-image: url("../images/bg_stars.gif");
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: inherit;
+  background-image: url("../images/bg_stars.gif");
+  display: inline;
+  max-width: 150px;
+  overflow-wrap: break-word;
+}
+
+#sidebar p {
+  overflow-wrap: break-word;
+}
+
+.flexbox-nav {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.flexbox-footer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: bottom;
+}
+
+/* Positioning tweaks */
+.copyleft {
+  flex-align: center;
+  align-self: center;
+}
+
+/* Decoration */
+
+em {
+  font-size: 1.1em;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+strong {
+  font-size: 2em;
+  Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+}
+
+.nav-btn {
+    background-color: #A9A9A9;
+    padding: 8px 20px;
+    color: #484848;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+  }
+
+a:visited {
+    color: #ffff33;
+  }
+
+
+a {
+    color: #ff9900;
+}
+
+a img:hover {
+    cursor: pointer;
+}
+
+a > img {
+  outline: 3px dotted #ff9900;
+}
+
+.nav-btn a {
+  color: #484848;
+  text-decoration: none;
+  font-size: 0.87em
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.nav-blurb {
+  background: #1B1E1F;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+.nav-blurb p {
+  display: inline;
+}
