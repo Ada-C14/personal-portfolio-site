@@ -13,6 +13,7 @@ header {
     grid-row: 1;
   }
 
+
 #painted-box {
   grid-column-start: 2;
   grid-row: 2;
@@ -39,11 +40,22 @@ nav a {
   height: 1.5rem;
   background-color: white;
   border: 1px solid black;
-  color:purple;
+  color:lightskyblue;
   margin-bottom: 2rem;
   font-size: 1.5rem;
   list-style-type: none;
   text-align: center;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+  
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  font-family: 'Inconsolata', monospace;
 }
 
 section {
@@ -60,19 +72,19 @@ section > img {
   }
 
 @media screen and (max-width: 600px) {
-    body {
-        display: flex;
-        flex-wrap: wrap;
-        width: 600px;
-        justify-content: center;
-    }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+}
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    }
+  nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 
 #photo {
   display: block;
@@ -97,8 +109,9 @@ section > img {
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
+  text-align: center;
   color: yellow;
 }
   
@@ -110,7 +123,7 @@ footer {
   margin-top: 1rem;
   grid-row: 3;
   grid-column: 1;
-  width: 10rem;
-  height: 2rem;
-  background-color: white;
+  /* width: auto;
+  height: 2rem; */
+  /* background-color: white; */
 }
