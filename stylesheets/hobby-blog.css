@@ -1,17 +1,13 @@
 article {
     margin: 2rem;
     text-align: center;
+    width: 50%;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-main article {
-    width: 50%;
-    text-align: center;
 }
 
 footer {
