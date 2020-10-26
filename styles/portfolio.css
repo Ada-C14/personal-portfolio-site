@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+
+ul li {
+    padding: .1em;
+}
+
+#slack-logo {
+    height: 1.25em;
+    width: 1.25em;
+}
