@@ -7,20 +7,21 @@ body {
     grid-template-rows: 1fr 5fr 1fr;
     justify-items: center; 
   }
-  
+
 header {
     grid-column: 2;
     grid-row: 1;
   }
 
-  #painted-box {
-    grid-column-start: 2;
-    grid-row: 2;
-    width: 40rem;
-    height: 40rem;
-    border-radius: 5%;
-    background: url("../images/white-brush-stroke.png");
-  }
+#painted-box {
+  grid-column-start: 2;
+  grid-row: 2;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 5%;
+  background: url("../images/white-brush-stroke.png");
+  background-repeat: no-repeat;
+}
 
 nav ul {
   width: 640px;
@@ -33,23 +34,24 @@ nav ul {
 }
 
 nav a {
-    display: inline-block;
-    width: 7rem;
-    height: 1.5rem;
-    background-color: white;
-    border: 1px solid black;
-    color:purple;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    list-style-type: none;
-    text-align: center;
+  display: inline-block;
+  width: 7rem;
+  height: 1.5rem;
+  background-color: white;
+  border: 1px solid black;
+  color:purple;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  list-style-type: none;
+  text-align: center;
 }
 
 section {
   justify-content: center;
 }
-/* 
+
 section > img {
+    width: auto;
     margin-top: 5rem;
     border:3px solid white;
       border-radius: 100%;
@@ -70,7 +72,7 @@ section > img {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    } */
+    }
 
 #photo {
   display: block;
@@ -79,7 +81,7 @@ section > img {
     
 #intro {
   display: block;
-  color: red;
+  color: black;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -94,11 +96,21 @@ section > img {
   margin: 1rem;
 }
 
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  color: yellow;
+}
+  
+h2, span {
+  font-family: 'Inconsolata', monospace;
+}
+
 footer {
-    margin-top: 1rem;
-    grid-row: 3;
-    grid-column: 1;
-    width: 10rem;
-    height: 2rem;
-    background-color: red;
-    }
+  margin-top: 1rem;
+  grid-row: 3;
+  grid-column: 1;
+  width: 10rem;
+  height: 2rem;
+  background-color: white;
+}
