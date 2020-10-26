@@ -1,0 +1,16 @@
+.projects {
+  grid-column: outer;
+  justify-content: flex-start;
+}
+
+.projects a {
+  color: hotpink;
+}
+
+.projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  list-style: none;
+}
