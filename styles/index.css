@@ -1,0 +1,29 @@
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 6s steps(20, end), blink .75s step-end infinite;
+    border-right: .15em solid lime;
+    margin: 0 auto;
+    width: auto;
+    display: inline-block;
+    font-size: 300%;
+}
+
+@keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent }
+    25% { border-color: lime; }
+}
+
+#audio:link {
+    text-decoration: none;
+}
+
+#audio:hover {
+    font-size: 150%;
+}

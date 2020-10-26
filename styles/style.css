@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(0deg, #009fff, #ec2f4b) no-repeat;
+    color: white;
+    text-align: center;
+    font-family: Andale Mono, monospace;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15% auto 5%;
+    grid-template-areas:
+    ". h h ."
+    "c c c c"
+    ". f f .";
+}
+
+.header {
+    grid-area: h;
+    align-self: center;
+}
+
+.content {
+    grid-area: c;
+    align-self: center;
+}
+
+.footer {
+    grid-area: f;
+    align-self: flex-end;
+    font-size: 70%;
+}
+
+a {
+    color: white;
+}
