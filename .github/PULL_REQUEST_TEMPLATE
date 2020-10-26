@@ -4,10 +4,10 @@ Congratulations! You're submitting your assignment!
 ## Comprehension Questions
 Question | Answer
 :------------- | :-------------
-Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
-Why is it important to consider and use semantic HTML? |
-How did you decide to structure your CSS? |
-What was the most challenging piece of this assignment? |
-Describe one area that you gained more clarity on when completing this assignment |
+Did you have to resolve any issues when running the HTML Validator? If so, what were they? | I had to place the language preference in the opening html element, correct h1's place below the heading, and remove hx's from ul's .  
+Why is it important to consider and use semantic HTML? | It helps organize, navigate, and make information clearer for those that might work with or look at what's happening beneath.  
+How did you decide to structure your CSS? | I decided it based on frustration, after attempting flex-box and burning out, I decided to start from scratch and keep things as clean and malleable as possible.
+What was the most challenging piece of this assignment? | Deciding how to organize, and understanding flexbox and grid.  Definately need more hands on practice/live-code witnessing.  Also, remembering the heirarchy and inline elements.
+Describe one area that you gained more clarity on when completing this assignment |. Sizing, inline element changing, display, some design components, would love to learn more.
 **Optional** |
-Did you deploy to GitHub Pages? If so, what is the URL to your website? |
+Did you deploy to GitHub Pages? If so, what is the URL to your website? | Not yet, but I hope to soon.
