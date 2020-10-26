@@ -1,0 +1,74 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+}
+
+html, body {
+    box-sizing: border-box;
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+    background-color: white;
+}
+
+.container > div:nth-child(2n) {
+    background-color: cornflowerblue;
+}
+
+.container > div:nth-child(3n) {
+    background-color: white;
+}
+
+.container > div:nth-child(4n) {
+    background-color: white;
+}
+
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 150px auto 30px;
+    grid-template-areas:
+        "m m m m m m m m m m m m"
+        "h h h h h h h h h h h h"
+        "c c c c c c c c c c c c"
+        "f f f f f f f f f f f f";
+}
+
+.header {
+    grid-area: h;
+    background-image: url("../images/background-header.jpg");
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+}
+
+img{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+nav{
+    list-style-type: none;
+}
+
+<!-- comment -->
