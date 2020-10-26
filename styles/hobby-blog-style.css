@@ -4,6 +4,7 @@ Layout
 main {
   display: flex;
   flex-direction: column;
+  max-width: 100rem;
 }
 
 /* main top image */
