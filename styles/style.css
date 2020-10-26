@@ -1,0 +1,8 @@
+body {
+    height: 50rem;
+    background-image: url("../images/background-water.jpeg");
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 1fr 5fr 1fr;
+    justify-items: center; 
+  }
