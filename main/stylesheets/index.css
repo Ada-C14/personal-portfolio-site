@@ -1,0 +1,26 @@
+section {
+    padding-top: 150px;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right :5px;
+
+}
+
+
+section h1 {
+    line-height: 150px;
+}
+
+section img {
+    width: 25%;
+    height: auto;
+    border-radius: 1%;
+    margin-left: 45%;
+    margin-top: 4%;
+}
+
+.credit {
+    margin-left: 15%;
+    text-align: center;
+}

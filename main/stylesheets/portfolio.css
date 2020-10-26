@@ -1,0 +1,28 @@
+.projects {
+    padding-top: 150px;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right :5px;
+
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15%;
+}
+
+.boxes p {
+    line-height: 150px;
+}
+
+.img1 {
+    width: 50%;
+    height: auto;
+}
+
+.img2 {
+    width: 70%;
+    height: auto;
+}
