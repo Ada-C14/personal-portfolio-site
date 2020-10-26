@@ -1,0 +1,32 @@
+/* TODO fix text size when images and text are side by side */
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: auto;
+}
+
+.text {
+  font-size: 1.3em;
+  width: 50%;
+}
+
+.blog-item {
+  background-color: #1B1E1F;
+}
+
+.avi-logo {
+  background-color: #fff;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+ul li {
+  font-size: 1.3em;
+}
