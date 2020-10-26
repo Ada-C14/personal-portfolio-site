@@ -19,14 +19,14 @@
 }
 .writing p {
     width: 650px;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 37px;
     text-align:center;
     background: white;
     border-style: solid;
 }
 body {
-    font-family: sans-serif, "Times New Roman";
+    font-family: "sans-serif", "Times New Roman";
 }
 
 

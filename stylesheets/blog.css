@@ -39,3 +39,14 @@
 ul {
     list-style-type: none;
 }
+
+#food {
+    max-width:50%;
+    height: auto;
+}
+
+#pic-dorho {
+
+    max-width:60%;
+    height: auto;
+}
