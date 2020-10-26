@@ -1,10 +1,13 @@
 * {
-
   background-color: lavenderblush;
   scroll-margin-block: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   color: black;
+}
+
+body.home {
+  background-image:url('');
 }
 
 header nav ul li {
@@ -37,4 +40,14 @@ footer nav ul li {
 main p, h2 {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#project-list li {
+  text-align: left;
+  list-style-type: unset;
+}
+
+#cs-list li {
+  text-align: left;
+  list-style-type: unset;
 }
