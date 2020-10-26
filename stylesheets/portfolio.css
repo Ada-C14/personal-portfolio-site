@@ -1,0 +1,61 @@
+
+.cards {
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: 0 0 10px var(--primary);
+}
+
+.card__image {
+    position: center;
+    width: fit-content;
+    display: block;
+    height: available;
+    object-fit: cover;
+}
+
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: var(--primary);
+}
+
+.card__info {
+    padding: 15px;
+    background: #0f4c5c;
+    font-size: 0.9em;
+    color: white;
+    border-bottom: 2px solid var(--primary);
+}
+
+.card__info i {
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+a:hover {
+    background-color: #9a031e;
+    text-decoration-line: underline;
+}
+
+.intro_portfolios h1 {
+    text-align: center;
+}
+
+.portfolio_footer {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}

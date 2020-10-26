@@ -1,0 +1,43 @@
+body {
+   background: white;
+    margin-left: 175px;
+    margin-right: 200px;
+}
+
+img {
+    border-radius: 80px;
+    border: #0f4c5c;
+}
+
+.developer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.emojis {
+    font-size: 2rem;
+}
+
+
+.contact {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #0f4c5c;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.paragraph_intro {
+    text-decoration: underline;
+}
