@@ -7,6 +7,13 @@ body {
     margin: 0;
 }
 
+h1 {
+    padding: 2rem;
+    font-size: 4rem;
+    font-family: "CutiveMonoRegular","Source Code Pro",monospace;
+    font-weight: 100;
+    text-align: center;
+}
 
 header nav {
     padding: .25rem;
@@ -45,7 +52,17 @@ a:hover {
 
 footer {
     background-color: #22577a;
-    height: auto;
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer div {
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
 }
 
 
