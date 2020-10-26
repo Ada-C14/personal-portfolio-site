@@ -44,6 +44,11 @@ main {
     align-content: center;
 }
 
+h1 {
+    text-align:center;
+    margin: 20px;
+}
+
 p {
     text-align: center;
     margin: 20px;
