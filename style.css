@@ -65,6 +65,13 @@
     font-family: 'Courier New', Courier, monospace;
   }
 
+  h4 {
+    text-align: center;
+    color: #439093;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  
+  }
   /* set background color of site */
   body {
     background-color: #F5CEC7;
@@ -103,6 +110,19 @@
     text-align: center;
   }
 
+  /* style tech stack box */
+  article.blog_list {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* style blog posts */
+  article.blog_post {
+    background-color: white;
+    text-align: center;
+  }
   /* footer */
   footer {
     background-color: #F5CEC7;
