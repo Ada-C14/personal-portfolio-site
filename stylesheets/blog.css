@@ -1,0 +1,56 @@
+.container-recipes {
+    width: 80%;
+    top: 20%;
+    left: 120px;
+    position: absolute;
+}
+.recipes {
+    width:600px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    font-family: "sans-serif", "Times New Roman";
+}
+
+.recipes h1 {
+    font-size: 73px;
+    border-style: solid;
+}
+
+.recipes h2 {
+    color: #C52233;
+}
+
+.recipes p {
+    font-size: 20px;
+    border-bottom-style: dotted;
+    text-decoration: none;
+}
+
+.cassava {
+    border-right-style: dotted;
+    border-left-style: dotted;
+    font-size: 20px;
+
+}
+.dorho {
+    border-right-style: dotted;
+    border-left-style: dotted;
+    font-size: 20px;
+
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+
+}
+
+#food {
+    max-width:50%;
+    height: auto;
+}
+
+#pic-dorho {
+    max-width:70%;
+    height: auto;
+}

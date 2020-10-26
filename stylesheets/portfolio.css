@@ -1,0 +1,38 @@
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-words {
+    width: 80%;
+    top: 20%;
+    left: 120px;
+    position: absolute;
+}
+.words {
+    width:600px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+}
+.words h1 {
+    border-style: solid;
+    font-size: 70px;
+    width: 600px;
+    text-align:center;
+    background: white;
+}
+
+.words h2 {
+    font-size: 40px;
+    width: 600px;
+    text-align:center;
+    background: white;
+}
+
+.words p {
+    font-size: 20px;
+    width: 600px;
+    background: white;
+    border-style: dotted;
+}
