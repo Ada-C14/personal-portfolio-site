@@ -58,18 +58,21 @@ footer {
 
 #all-blogs {
   margin-left: 3em;
+  /* align-self: center; */
 }
 
 label {
   color: #8e5aad;
   margin: 10px 0;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .read-more-state {
   display: none;
 }
 
-.read-more-state:not(:checked) ~ .additional-text {
+.read-more-state ~ .additional-text {
   display: none;
 }
 
@@ -90,4 +93,14 @@ label {
 
 hr {
   margin: 20px 0;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  overflow: hidden;
+}
+
+main {
+  padding-top: 90px;
 }
