@@ -1,5 +1,6 @@
 div.icons {
     display: grid;
+    padding: 1.5rem;
     grid-template-columns: 12rem repeat(3, 1fr) 12rem;
     grid-template-rows: 25rem 5rem;    
 }
@@ -50,3 +51,4 @@ div.text3 {
 .icons div a img:hover {
     opacity: 30%;
 }
+
