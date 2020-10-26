@@ -22,7 +22,7 @@
 }
 
 .recipes p {
-    font-size: 15px;
+    font-size: 20px;
     border-bottom-style: dotted;
     text-decoration: none;
 }
@@ -30,14 +30,19 @@
 .cassava {
     border-right-style: dotted;
     border-left-style: dotted;
+    font-size: 20px;
+
 }
 .dorho {
-
     border-right-style: dotted;
     border-left-style: dotted;
+    font-size: 20px;
+
 }
 ul {
     list-style-type: none;
+    font-size: 20px;
+
 }
 
 #food {
@@ -46,7 +51,6 @@ ul {
 }
 
 #pic-dorho {
-
-    max-width:60%;
+    max-width:70%;
     height: auto;
 }
