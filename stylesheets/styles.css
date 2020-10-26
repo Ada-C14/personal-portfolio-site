@@ -1,6 +1,7 @@
 
 * {
     font-family: Helvetica;
+    background-color: #ffe9c4;
 }
 
 #home_image {
@@ -50,7 +51,6 @@ a:link {
 
 #container {
     position: relative;
-
 }
 
 
@@ -72,7 +72,7 @@ a:link {
     width: 100%;
     opacity: 0;
     transition: .5s ease-in-out;
-    background-color: white;
+    background-color: #ffe9c4;
 }
 
 #container:hover #kitty-overlay {
@@ -93,12 +93,6 @@ a:link {
 
 #poem_title {
     font-size: 40px;
-}
-
-h1{
-    color: #696e1b;
-    margin: 30px;
-    font-size: 50px;
 }
 
 h2 {
@@ -126,7 +120,9 @@ a {
 }
 
 a:hover {
-    color: #f5c690;
+    color: #ff8e0d;
+    text-shadow: 0 0 3px #ff8e0d;
+    color: transparent;
 }
 
 article {
@@ -139,3 +135,82 @@ article {
     font-size: 12px;
 }
 
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.header-name {
+    color: #696e1b;
+    font-size: 60px;
+}
+
+.header-nav {
+    margin-bottom: 35px;
+}
+
+.header-nav li {
+    display: inline;
+    padding-left: 50px;
+}
+
+footer p {
+    font-family: Helvetica;
+    font-size: 60px;
+    color: #696e1b;
+}
+
+.inline-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+
+.solo-footer {
+    float: right;
+    margin-top: 0;
+    margin-right: 30px;
+}
+
+.solo-footer p {
+    margin-top: 0px;
+}
+
+.footer-nav li {
+    display: inline;
+    padding-right: 50px;
+}
+
+.footer-nav {
+    margin-bottom: 55px;
+}
+
+.img-center {
+
+    margin: auto;
+
+}
+
+.img-center img {
+    width: 100%;
+}
+
+#spiral-size {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.scoot {
+    margin-left: 50px;
+}
+
+.article-wrap {
+    display: flex;
+
+}
