@@ -1,17 +1,17 @@
 body {
-    height: 50rem;
-    background-image: url("../images/background-water.jpeg");
-    /* background-position: center; */
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 1fr 5fr 1fr;
-    justify-items: center; 
-  }
+  height: 50rem;
+  background-image: url("../images/background-water.jpeg");
+  /* background-position: center; */
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 1fr 5fr 1fr;
+  justify-items: center; 
+}
 
 header {
-    grid-column: 2;
-    grid-row: 1;
-  }
+  grid-column: 2;
+  grid-row: 1;
+}
 
 
 #painted-box {
@@ -20,7 +20,7 @@ header {
   width: 40rem;
   height: 40rem;
   border-radius: 5%;
-  background: url("../images/white-brush-stroke.png");
+  /* background: url("../images/white-brush-stroke.png"); */
   background-repeat: no-repeat;
 }
 
@@ -48,8 +48,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: yellow;
-    color: black;
+  background-color: yellow;
+  color: black;
 }
   
 nav a {
@@ -65,7 +65,7 @@ section {
 section > img {
     width: auto;
     margin-top: 5rem;
-    border:3px solid white;
+    border:10px solid white;
       border-radius: 100%;
       -webkit-border-radius: 100%;
       -moz-border-radius: 100%;
@@ -88,7 +88,7 @@ section > img {
 
 #photo {
   display: block;
-  text-align: center;
+  position: relative;
 }
     
 #intro {
