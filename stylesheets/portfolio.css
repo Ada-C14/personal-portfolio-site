@@ -4,12 +4,15 @@ div.projects {
     grid-template-rows: repeat(3, 25rem);
 }
 
-.project_image a img {
-    width: 20rem;
+.project_image img {
+    width: 75%;
+    height: auto;
+    padding-top: 2rem;
 }
 
 .project-details {
     padding-right: 3rem;
+    padding-top: 2rem;
     text-align: justify;
     font-size: 1.25rem;
 }
