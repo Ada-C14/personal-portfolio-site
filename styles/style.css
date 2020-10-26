@@ -44,7 +44,7 @@ a {
   text-decoration: none;
 }
 
-.container > div {
+.container * {
   display: flex;
   align-items: center;
   padding-left: 25px;
