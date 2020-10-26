@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header nav {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #38a3a5;
+}
+
+
+nav > div:nth-child(3) {
+    margin-left: auto;
+}
+
+nav div {
+    padding: 1rem;
+    color: white;
+}
+
+.name {
+    padding: 0rem;
+}
+
+nav div img {
+    width: 3rem;
+    border-radius: 1rem;
+}
+
+nav div a {
+    text-decoration: none;
+    color: white;
+
+}
+a:hover {
+    color: #ffcb69;
+    text-decoration: none;
+}
+
+
+
+
+
