@@ -9,9 +9,7 @@ body {
 
 
 header nav {
-    width: 100%;
     padding: .25rem;
-
     display: flex;
     align-items: center;
     background-color: #38a3a5;
@@ -43,6 +41,11 @@ nav div a {
 }
 a:hover {
     color: #05668d;
+}
+
+footer {
+    background-color: #22577a;
+    height: auto;
 }
 
 
