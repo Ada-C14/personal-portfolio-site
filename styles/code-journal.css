@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.emoji {
+    font-size: 400%;
+}
+
+article {
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin: auto;
+    padding: 2em;
+    width: 75%;
+}
+
+.headline, .byline, .dateline {
+    margin: 0;
+    padding: 0;
+}
+
+#obama-gif {
+    height: 60%;
+    width: 60%;
+}
