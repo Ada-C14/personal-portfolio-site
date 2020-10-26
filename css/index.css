@@ -1,0 +1,55 @@
+section {
+  padding: 0;
+  margin: 0;
+}
+
+.picture-container {
+  margin-left: 7em;
+}
+
+.description {
+  margin-right: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#picture {
+  border-radius: 50%;
+  height: 450px;
+}
+
+h1,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 120px;
+  color: #8e5aad;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 36px;
+  margin-left: 0.25em;
+  line-height: 50px;
+}
+
+#view-portfolio-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a9d5f4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: #596065;
+  border-radius: 10px;
+  width: 270px;
+  height: 60px;
+  padding: 0;
+  margin: 1em 0 0 0.25em;
+  cursor: pointer;
+}
