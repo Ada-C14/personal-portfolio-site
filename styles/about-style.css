@@ -3,17 +3,12 @@ Layout
 ===== */
 .about {
   max-width: 100rem;
-  
   display: grid;
   grid-template-columns: 25% 5% 40% 5% 25%;
   grid-gap: 2rem 0;
   margin: 1rem auto 5rem auto;
 }
 
-/* h1 {
-  grid-column: 1 / 6;
-  grid-row: 1 / 2 ;
-} */
 
 article.journey {
   grid-column: 3 / 4;
@@ -22,7 +17,6 @@ article.journey {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* max-width: 100rem; */
 }
 
 .journey h2 {
@@ -37,6 +31,10 @@ article.journey {
 /* =====
 Image Layout
 ===== */
+main {
+  
+}
+
 h1 {
   text-align: right;
 

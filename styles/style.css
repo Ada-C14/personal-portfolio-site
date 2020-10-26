@@ -23,17 +23,10 @@ h1, h2, h3, h4 {
 } */
 
 
-/* Global styles  */
+
 html, body {
   margin: 0;
   height: 100%; /* keeps the footer at the bottom of window */
-  /* background-image: url('../images/test-image.jpg');
-  background-color: aliceblue;
-  background-size: cover; */
-}
-
-main {
-  max-width: 100rem;
 }
 
 a {
@@ -41,7 +34,6 @@ a {
   color: #293047;
   cursor: pointer;
 }
-
 
 /* =======
 Typography 
@@ -100,14 +92,11 @@ h4 {
 /* ========
 Layout 
 ======== */
-
-
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 4rem auto 4rem
+  grid-template-rows: 4rem auto 4rem; 
 }
-
 
 header, main, footer {
   grid-column: 1 / -1
@@ -123,23 +112,18 @@ header {
 .header-nav-left {
   display: flex;
   align-items: center;
-
   padding: 0 2rem
-
 }
 
 .header-name {
-  /* border: pink solid 1px; */
   text-align: center;
   align-items: center;
-  white-space: nowrap; /* prevent the text from wrapping */
+  white-space: nowrap;
 }
 
 .header-nav-right {
-
   display: flex;
   align-items: center;
-
   padding: 0 2rem;
 }
 
@@ -152,14 +136,14 @@ img.logo {
   display: block;
 }
 
+
 /* main layout */
 main {
-  grid-column: span;
   grid-row: 2 / 3;
+
+  display: flex;
+  flex-direction: column;
 }
-
-
-
 
 
 /* footer layout */

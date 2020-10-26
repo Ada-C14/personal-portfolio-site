@@ -1,6 +1,12 @@
 .testimonials {
   padding: 3rem;
+  display: grid;
+  justify-content: center;
+}
 
+
+.testimonials blockquote {
+  max-width: 50rem;
 }
 
 .testimonials blockquote {
@@ -49,7 +55,7 @@ q::after {
 Color
 ====== */
 .testimonials {
-  background-color: #eef3f4;
+  background-color: #f4f4f4;
 }
 
 hr {

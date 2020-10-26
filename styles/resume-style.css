@@ -43,12 +43,10 @@ h5 {
 /* ======
 Layout
 ====== */
-main {
-  max-width: 100rem;
-}
-
 .resume {
+  padding-left: 10vw;
   display: flex;
+  max-width: 80rem;
 }
 
 .resume-cards-container {
@@ -58,7 +56,9 @@ main {
 
 /* title layout */
 .resume-title {
-  padding: 3rem;
+  padding: 6rem 3rem 3rem 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -105,7 +105,9 @@ img {
 object-fit: contain;
 }
 
-
+li {
+  padding-right: 1rem
+}
 
 /* ======
 Icon Layout
