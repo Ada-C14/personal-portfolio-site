@@ -1,0 +1,106 @@
+<!-- portfolio.html must include information about the projects you've completed at Ada 
+  (or elsewhere) with links to GitHub repo if available, descriptions, images, etc. -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/portfolio-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c1f61dbd4.js" crossorigin="anonymous"></script>
+    <title>Christina Minh's Portfolio</title>
+  </head>
+  
+  <body>
+    <header class="flex-container">
+      <!-- nav left-->
+      <div>
+        <nav class="header-links">
+          <ul class="header-nav-left flex-container">
+            <li><a href="about.html">about</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="hobby-blog.html">blog</a></li>
+          </ul>
+        </nav>
+      </div> 
+      <!-- nav center-->
+      <div class="header-links">
+        <a class="header-name" href="index.html">Christina Minh</a> 
+      </div> 
+  
+      <!-- nav right -->
+      <div>
+        <ul class="header-nav-right flex-container">
+          <li class="header-links"><a href="contact.html">contact</a></li>
+          <li><a href="https://github.com/christinaminh"><img class="logo" src="images/github-icon.png" alt=""></a></li>
+          <li><a href="https://codepen.io/christinaminh"><img class="logo" src="images/codepen-icon.png" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/christinaminh/"><img class="logo" src="images/linkedin-icon.png" alt=""></a></li>
+  
+        </ul>
+      </div> 
+    </header>
+  
+    <main>
+      <h1>Portfolio</h1>
+
+      <div class="projects">
+        <a href="https://github.com/christinaminh/ride-share">
+          <article class="ride-share project-container">
+            <img src="images/ride-share.jpg" alt="hand holding phone with Uber open">
+            <h2>Ride-Share</h2>
+            <p>A ride-share program that looks at data of drivers and their ride history. 
+              Takes data stored in a CSV file and organizes it into one single variable that is one single nested data structure.</p>
+          </article>
+        </a>
+  
+        <a href="https://github.com/christinaminh/adagrams">
+          <article class="adagram project-container">
+            <img src="images/scrabble.jpg" alt="scrabble tiles">
+            <h2>Adagrams</h2>
+            <p>A Ruby implementation of Adagrams (anagrams) that runs in the command line.</p>
+          </article>
+        </a>
+  
+        <a href="https://github.com/christinaminh/solar-system">
+          <article class="solar-system project-container">
+            <img src="images/astronaut.jpg" alt="illustration of an astronaut">
+            <h2>Solar System</h2>
+            <p>A command line interface that allows a user to interact with a solar system model.</p>
+          </article>
+        </a>
+
+        <a href="https://github.com/christinaminh/grocery-store">
+          <article class="grocery-store project-container">
+            <img src="images/grocery.jpg" alt="shopping cart in grocery aisle">
+            <h2>Grocery Store</h2>
+            <p>Library code that grocery stores would use to keep track of the orders that folks make in the store.</p>
+          </article>
+        </a>
+  
+        <a href="https://github.com/christinaminh/slack-cli">
+          <article class="slack-cli project-container">
+            <img src="images/slack-logo.jpeg" alt="slack logo">
+            <h2>Slack CLI</h2>
+            <p>A command line interface (CLI) that allows a user to interact with Slack. 
+              Uses the Slack API in order to list users and channels, get details on users and channels, and send messages to users or channels, all from a Ruby program.</p>
+          </article>
+        </a>
+      </div>
+
+    </main>
+  
+    <footer>
+      <ul class="footer-nav flex-container">
+        <li class="copy">© 2020 Christina Minh</li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="https://github.com/christinaminh"><img class="logo" src="images/github-icon.png" alt=""></a></li>
+        <li><a href="https://codepen.io/christinaminh"><img class="logo" src="images/codepen-icon.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/christinaminh/"><img class="logo" src="images/linkedin-icon.png" alt=""></a></li>
+      </ul>    
+    </footer>
+  </body>
+  
+  </html>

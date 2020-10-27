@@ -1,0 +1,142 @@
+/* =====
+Layout 
+====== */
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 100rem;
+  justify-self: center; 
+}
+
+/* main top image */
+.header {
+  display: flex;
+  justify-content: center; 
+
+}
+
+h1 {
+  text-align: left;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 3rem;
+  font-weight: 100;
+  text-transform: lowercase;
+  opacity: 50%;
+}
+
+[src="images/hobby-header.png"] {
+  width: 8rem;
+  object-fit: contain;
+  margin-right: 1.5rem;
+}
+
+
+/* blog images */
+.image-container {
+  /* margin: -3rem 13rem 5rem 13rem; */
+  margin: 1rem 10vw 10rem 10vw;
+  display: grid;
+  gap: 0.8% 2%;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: dense;
+}
+
+.horizontal {
+  grid-column: span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* add dark overlay on hover */
+.overlay-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+/* slide title/time up on hover */
+.overlay > * {
+  transform: translateY(1rem);
+  transition: transform 0.3s;
+}
+
+.overlay:hover > * {
+  transform: translateY(0);
+}
+
+
+/* =====
+text in overlay 
+===== */
+.image-container * {
+  color: white;
+}
+
+.title {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+.image-container time::before{
+  content: " • "
+}
+
+.blog-details {
+  font-size: 0.8rem;
+}
+
+
+/* underline outwards when hovering over link
+https://paulund.co.uk/css-animation-link-underline */
+.image-container a:hover {
+  text-decoration: none;
+}
+
+.image-container a {
+  position: relative;
+}
+
+.image-container a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.05rem;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.image-container a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}

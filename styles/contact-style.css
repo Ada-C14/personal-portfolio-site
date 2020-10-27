@@ -1,0 +1,78 @@
+/* main top image */
+h2 {
+  text-align: center;
+  text-transform: none;
+  font-size: 2rem;
+  background-image: url("../images/contact-header.png");
+  background-repeat: no-repeat;
+  background-color: #fff7de;
+  background-size: contain;
+  padding: 4rem 0 2rem 10rem;
+  margin: 0;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: lighter;
+  margin: 6rem 5rem 10rem 5rem
+}
+
+.contact-form {
+  width: 40rem;
+  margin: 5rem
+}
+
+input, textarea, label {
+  display: block;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+input, textarea {
+  margin-top: 0.5rem
+}
+
+.contact-form div {
+  margin: 2rem 0
+}
+
+/* name fields */
+.name-title {
+  margin-bottom: -2rem;
+}
+
+.name-fields {
+  display: grid;
+  gap: 0 1.1rem;
+  grid-template-columns: auto auto;
+}
+
+.name-fields label {
+  font-size: 0.8rem;
+  padding-left: 0.1rem
+}
+
+/* Submit button */
+.button {
+  background-color: #141823;
+  border: none;
+  padding: 1rem 2rem;
+
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 0.15rem;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 70%;
+}

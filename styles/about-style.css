@@ -1,0 +1,128 @@
+/* =====
+Layout
+===== */
+.about {
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: 25% 5% 40% 5% 25%;
+  grid-gap: 2rem 0;
+  margin: 1rem auto 5rem auto;
+}
+
+
+article.journey {
+  grid-column: 3 / 4;
+  grid-row: span 8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.journey h2 {
+  margin-top: 2rem ;
+}
+
+.journey p {
+  margin-bottom: 2rem;
+}
+
+
+/* =====
+Image Layout
+===== */
+main {
+  
+}
+
+h1 {
+  text-align: right;
+
+  background-image: url(../images/about-header.png), url(../images/about-header-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+  padding: 3rem;
+  margin: 0;
+}
+
+
+img {
+  width: 100%;
+}
+
+[src="images/hand-prosthesis.jpg"] {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  padding-top: 2rem;
+}
+
+[src="images/computer-excited.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
+
+}
+
+[src="images/computer-dancing.gif"] {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+[src="images/computer-study.gif"] {
+
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+  height: 100%;
+  overflow: hidden;
+}
+
+[src="images/computer-tired.gif"] {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+
+}
+[src="images/computer-sleep.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 7 / 8;
+}
+
+
+[src="images/computer-fall.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+[src="images/computer-typing.gif"] {
+  grid-column: 5 / 6;
+  grid-row: 6 / 7;
+  height: 100%;
+  overflow: hidden;
+
+}
+[src="images/computer-chill.gif"] {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+
+/* =====
+Typography
+===== */
+h1{
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+
+
