@@ -237,6 +237,10 @@ footer p {
     padding-top: 20px;
 }
 
+.article-wrap div {
+    padding-right: 25px;
+}
+
 .scoot {
     margin-left: 50px;
 }
@@ -282,3 +286,5 @@ footer p {
 .info {
     color: #3480eb;
 }
+
+
