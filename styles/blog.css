@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   grid-template-rows: 28rem;
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .main-content-adj .post {
@@ -24,7 +24,7 @@
   width: auto;
 }
 
-img {
+.main-content-adj .post img {
   height: 100%;
   width: auto;
   position: relative;
