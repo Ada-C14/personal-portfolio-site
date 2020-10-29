@@ -27,19 +27,3 @@ article p:nth-child(2) {
 footer {
   margin-top: 5rem;
 }
-  
-@media screen and (max-width: 600px) {
-  body {
-   display: flex;
-   flex-wrap: wrap;
-   width: 600px;
-   justify-content: center;
-  }
-  
-  nav {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    }
-}
-   

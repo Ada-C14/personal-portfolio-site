@@ -1,5 +1,4 @@
-
-  h2 {
+h2 {
   padding-left: 2rem;
 }
   
@@ -27,19 +26,4 @@ strong {
   
 footer {
   margin-top: 6rem;
-}
-  
-@media screen and (max-width: 600px) {
-  body {
-   display: flex;
-   flex-wrap: wrap;
-   width: 600px;
-   justify-content: center;
-   }
-  
-  nav {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   }
 }
