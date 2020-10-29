@@ -1,0 +1,123 @@
+body {
+  height: 50rem;
+  background-image: url("../images/background-water.jpeg");
+  /* background-position: center; */
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 1fr 5fr 1fr;
+  justify-items: center; 
+}
+
+header {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.social {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+#painted-box {
+  grid-column-start: 2;
+  grid-row: 2;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 5%;
+  /* background: url("../images/white-brush-stroke.png"); */
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  width: 640px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  list-style-type: none;
+}
+
+nav a {
+  width: 7rem;
+  height: 1.5rem;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  color:lightskyblue;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  font-family: 'Inconsolata', monospace;
+}
+nav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+section {
+  justify-content: center;
+}
+
+section > img {
+    width: auto;
+    margin-top: 5rem;
+    border:10px solid white;
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+  }
+
+#photo {
+  display: block;
+  position: relative;
+  width: 50%;
+  height: ;
+}
+    
+#intro {
+  display: block;
+  color: black;
+  text-align: center;
+}
+    
+#social {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+    
+#social a {
+  margin: 1rem;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  text-align: center;
+  color: yellow;
+}
+  
+h2, span {
+  font-family: 'Inconsolata', monospace;
+}
+
+footer {
+  font-family: 'Inconsolata', monospace;
+  margin-top: 1rem;
+  grid-row: 3;
+  grid-column: 1;
+  color: white;
+  /* width: auto;
+  height: 2rem; */
+  /* background-color: white; */
+}
