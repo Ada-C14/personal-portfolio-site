@@ -1,0 +1,29 @@
+#articles {
+    grid-column: 2;
+    grid-row: 2;
+    width: 640px;
+    height: auto;
+    background: white;
+    border-radius: 5%;
+    border: 1px solid black;
+  }
+  
+#articles h2 {
+  padding-left: 2rem;
+}
+  
+article {
+  width: 90%;
+  display: block;
+  border-top: solid 1px yellow;
+  padding: 2rem;
+  font-family: 'Abel', sans-serif;
+}
+  
+article p:nth-child(2) {
+  background: yellow;
+}
+  
+footer {
+  margin-top: 5rem;
+}
