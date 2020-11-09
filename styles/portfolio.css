@@ -1,0 +1,146 @@
+body {
+  background-image: url("../images/mountain_road_edit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.main-content-adj {
+  grid-row: 2;
+  width: 100%;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 14rem 14rem;
+  grid-template-columns: 40% 30% 30%;
+}
+
+.main-content-adj #proj1 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.main-content-adj #proj2 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.main-content-adj #proj3 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.main-content-adj #proj4 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.main-content-adj .proj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.hover-card {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FEFAE0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.25px solid #606C38;
+}
+
+img {
+  position: relative;
+  height: 90%;
+  width: auto;
+  /* transition: .5s ease; */
+  /* backface-visibility: hidden; */
+  min-width: 0;
+}
+
+#proj1:hover .hover-card {
+  opacity: 1;
+}
+
+#proj1:hover img {
+  opacity: 0;
+}
+
+#proj2:hover .hover-card {
+  opacity: 1;
+}
+
+#proj2:hover img {
+  opacity: 0;
+}
+
+#proj3:hover .hover-card {
+  opacity: 1;
+}
+
+#proj3:hover img {
+  opacity: 0;
+}
+
+#proj4:hover .hover-card {
+  opacity: 1;
+}
+
+#proj4:hover img {
+  opacity: 0;
+}
+
+.proj-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #283618;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #BC6C25;
+  font-weight: 500;
+}
+
+.main-content-adj .proj a:link, .main-content-adj .proj a:visited {
+  color: #606C38;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.main-content-adj .proj a:hover {
+  color: #DDA15E;
+  font-style: italic;
+}
+
+/* .side-img {
+  grid-row: 1 / span 2;
+  grid-column: 1;
+  justify-self: center;
+  height: 100%;
+  width: auto;
+  opacity: 85%;
+} */
