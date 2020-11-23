@@ -1,0 +1,35 @@
+.content {background-color: #328cc1}
+.post {
+    padding: 30px 20px 0px 50px;
+    display: grid;
+    grid-template-rows: [img-start]20% [abstract-start] 80% [abstract-end img-end];
+    grid-template-columns: [abstract-start]50% [abstract-end img-start] 50% [img-end];
+    border-bottom: dashed;
+    border-bottom-width: 1px;
+}
+
+.title {
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    grid-column: 1 / 2;
+}
+
+.abstract {
+    font-family: "Andale Mono";
+    grid-area: abstract;
+    padding: 20px 10px 5px 0px;
+}
+
+img {
+    height: 200px;
+    grid-area: img;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+div > a:hover {
+    opacity: 0.8;
+    color: #f7882f;
+}

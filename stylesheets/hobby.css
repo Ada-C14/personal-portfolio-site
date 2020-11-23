@@ -1,0 +1,53 @@
+.content {background-color: #286da8}
+
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: white;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 8px;
+    align-self: flex-start;
+
+}
+
+.date {
+    font-family: "Andale Mono";
+    font-size: 0.9em;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    align-self: flex-start;
+}
+.diary {
+    text-align: left;
+    font-family: "Andale Mono";
+    padding-left: 8px;
+    padding-right: 20px;
+
+}

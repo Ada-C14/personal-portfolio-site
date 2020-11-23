@@ -1,0 +1,16 @@
+.content {
+    font-family: "Andale Mono";
+    font-size: 2em;
+    background-color: #f7882f;
+    padding: 50px;
+}
+
+a > [src] {
+    height: 1em;
+    opacity: 0.5;
+
+}
+
+img:hover {
+    opacity: 1.0;
+}
