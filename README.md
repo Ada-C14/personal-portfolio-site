@@ -1,4 +1,4 @@
-# Personal Portfolio Site (Ad
+# Personal Portfolio Site
 
 ## At a Glance
 
