@@ -1,27 +1,8 @@
-# Personal Portfolio Site
+# Personal Portfolio Site (Ad
 
 ## At a Glance
 
-- Individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/classroom/rule-of-three.md#stage-2) project
-- Due before class, Monday October 26th
-
-## Introduction
-
-It's common for developers to create a website to show off their web-dev skills and document their work and interests. These sites often feature things like:
-
-- A professional introduction of themselves, careers, and interests
-- A portfolio of projects that they've created and/or collaborated on
-- A blog to share their experiences, thoughts, and/or subject matter expertise
-- Other materials to share any non-coding interests and hobbies
-- A site designed to express themselves
-
-### Some Inspiration
-- [http://lizabinante.com/](http://lizabinante.com/)
-- [http://where.coraline.codes/](http://where.coraline.codes/)
-- [http://danisaurus.github.io/](http://danisaurus.github.io/)
-- [http://www.fenslattery.com/](http://www.fenslattery.com/)
-- [https://www.heyellieday.com/](https://www.heyellieday.com/)
-- [http://car.oline.codes/](http://car.oline.codes/)
+A website to show off web-dev skills and document work and interests.
 
 ## Learning Goals:
 - Practice creating semantic HTML
