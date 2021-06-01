@@ -136,6 +136,10 @@ li {
   font-style: italic;
 }
 
+.info-links {
+  margin-right: 10px;
+}
+
 /* .side-img {
   grid-row: 1 / span 2;
   grid-column: 1;
